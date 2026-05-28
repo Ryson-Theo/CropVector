@@ -92,15 +92,28 @@ Tech / APIs:
 
 An easy marketplace view for buyers to browse listings and manage orders.
 
-<div style="display:flex; flex-wrap:wrap; gap:12px; justify-content:center;">
-  <div style="max-width:320px; text-align:center; margin:0 8px;">
-    <img src="assets/marketplace-listings.gif" alt="Listings preview" width="320" />
-    <p><strong>Browse listings</strong></p>
-  </div>
-  <div style="max-width:320px; text-align:center; margin:0 8px;">
-    <img src="assets/marketplace-order.gif" alt="Order workflow preview" width="320" />
-    <p><strong>Order workflow</strong></p>
-  </div>
+<div align="center" style="display:flex; flex-wrap:wrap; gap:40px; justify-content:center;">
+
+<div style="text-align:center;">
+
+<img src="assets/marketplace-listings.gif" alt="Listings preview" width="320" />
+
+<br/>
+
+<strong>Browse listings</strong>
+
+</div>
+
+<div style="text-align:center;">
+
+<img src="assets/marketplace-order.gif" alt="Order workflow preview" width="320" />
+
+<br/>
+
+<strong>Order workflow</strong>
+
+</div>
+
 </div>
 
 Features:
