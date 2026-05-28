@@ -31,22 +31,45 @@ A farmer-first control center for fields, crops, and risk alerts.
 
 <div align="center">
 
-<p align="center">
-  <img src="assets/farmer-fields.gif" width="430" />
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="assets/farmer-disease.gif" width="430" />
-</p>
+<table style="border: none; border-collapse: separate; border-spacing: 45px 0;">
+<tr style="border: none;">
 
-<p align="center">
-  <strong style="margin-right: 280px;">Field tracking</strong>
-  <strong>Disease & alerts</strong>
-</p>
+<td align="center" style="border: none;">
 
-<br/><br/>
+<img src="assets/farmer-fields.gif" width="430" /><br/><br/>
+
+<div align="center">
+
+<strong>Field tracking</strong>
+
+</div>
+
+</td>
+
+<td align="center" style="border: none;">
+
+<img src="assets/farmer-disease.gif" width="430" /><br/><br/>
+
+<div align="center">
+
+<strong>Disease & alerts</strong>
+
+</div>
+
+</td>
+
+</tr>
+</table>
+
+<br/><br/><br/>
+
+<div align="center">
 
 <img src="assets/farmer-market.gif" width="420" /><br/><br/>
 
 <strong>Market insights</strong>
+
+</div>
 
 </div>
 Features:
