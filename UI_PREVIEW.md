@@ -92,9 +92,9 @@ Tech / APIs:
 
 An easy marketplace view for buyers to browse listings and manage orders.
 
-<div align="center" style="display:flex; flex-wrap:wrap; gap:40px; justify-content:center;">
+<div align="center">
 
-<div style="text-align:center;">
+<div style="text-align:center; margin-bottom:40px;">
 
 <img src="assets/marketplace-listings.gif" alt="Listings preview" width="320" />
 
