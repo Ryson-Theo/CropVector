@@ -32,12 +32,12 @@ A farmer-first control center for fields, crops, and risk alerts.
 <table align="center">
 <tr>
 <td align="center">
-<img src="assets/farmer-fields.gif" width="360"/><br/>
+<img src="assets/farmer-fields.gif" width="430"/><br/>
 <strong>Field tracking</strong>
 </td>
 
 <td align="center">
-<img src="assets/farmer-disease.gif" width="360"/><br/>
+<img src="assets/farmer-disease.gif" width="430"/><br/>
 <strong>Disease & alerts</strong>
 </td>
 </tr>
@@ -46,10 +46,9 @@ A farmer-first control center for fields, crops, and risk alerts.
 <br/>
 
 <p align="center">
-<img src="assets/farmer-market.gif" width="420"/><br/>
+<img src="assets/farmer-market.gif" width="360"/><br/>
 <strong>Market insights</strong>
 </p>
-
 Features:
 - Crop lifecycle and field tracking
 - Disease logging and treatment history
