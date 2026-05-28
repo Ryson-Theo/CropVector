@@ -66,8 +66,7 @@ REAL_vs_FAKE_ANALYSIS.txt
 TEST_REPORT_RECOMMENDATIONS.txt
 assets/*.mp4
 
-# Don't push images, uploads, or local environment secrets
-assets/
+# Don't push uploads or local environment secrets
 /backend/uploads/
 uploads/
 
