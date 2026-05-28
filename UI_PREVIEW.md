@@ -99,7 +99,7 @@ An easy marketplace view for buyers to browse listings and manage orders.
 
 <td align="center" style="border: none;">
 
-<img src="assets/marketplace-listings.gif" alt="Listings preview" width="400" />
+<img src="assets/marketplace-listings.gif" alt="Listings preview" width="430" />
 
 <br/>
 
@@ -109,7 +109,7 @@ An easy marketplace view for buyers to browse listings and manage orders.
 
 <td align="center" style="border: none;">
 
-<img src="assets/marketplace-order.gif" alt="Order workflow preview" width="400" />
+<img src="assets/marketplace-order.gif" alt="Order workflow preview" width="430" />
 
 <br/>
 
@@ -151,7 +151,7 @@ A central space for community users to discover updates, ask questions, and conn
 
 <td align="center" style="border: none;">
 
-<img src="assets/community-feed.gif" alt="Community feed preview" width="320" />
+<img src="assets/community-feed.gif" alt="Community feed preview" width="430" />
 
 <br/>
 
@@ -161,7 +161,7 @@ A central space for community users to discover updates, ask questions, and conn
 
 <td align="center" style="border: none;">
 
-<img src="assets/community-homegarden.gif" alt="Community homegarden preview" width="320" />
+<img src="assets/community-homegarden.gif" alt="Community homegarden preview" width="430" />
 
 <br/>
 
