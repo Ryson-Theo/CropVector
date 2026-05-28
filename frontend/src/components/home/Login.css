@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --primary-leaf: #2d6a4f;
+  --earth-dark: #1b241b;
+  --text-muted: #64748b;
+  --input-bg: #f8fafc;
+  --border-color: #e2e8f0;
+  --transition-standard: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ===== 1. LAYOUT: Center the Stage ===== */
+.auth-container {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  /* avoid clipping: allow vertical scroll, only hide horizontal overflow */
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.auth-form-section {
+  flex: 1.4; /* Slightly wider than sidebar for balance */
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;    /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  padding: 40px;
+  position: relative;
+}
+
+/* ===== 2. FORM WRAPPER: Constraint & Alignment ===== */
+.form-wrapper {
+  width: 100%;
+  max-width: 400px; /* PROFESSIONAL SECRET: Never go wider than 400px for login */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Align Header to the left of the form */
+.header-group {
+  margin-bottom: 32px;
+  text-align: left;
+}
+
+.form-title {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 1.85rem;
+  font-weight: 800;
+  color: var(--earth-dark);
+  letter-spacing: -0.025em;
+  margin-bottom: 8px;
+}
+
+.form-subtitle {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* ===== 3. INPUT FIELDS: Polished & Compact ===== */
+.input-group {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #334155;
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px 16px;
+  background: var(--input-bg);
+  border: 1.5px solid var(--border-color);
+  border-radius: 10px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 0.95rem;
+  color: var(--earth-dark);
+  transition: var(--transition-standard);
+}
+
+.input-group input:focus {
+  outline: none;
+  border-color: var(--primary-leaf);
+  background: #ffffff;
+  box-shadow: 0 0 0 4px rgba(45, 106, 79, 0.08);
+}
+
+/* ===== 4. SOCIAL & ACTION BUTTONS ===== */
+.social-btn {
+  width: 100%;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: #ffffff;
+  border: 1.5px solid var(--border-color);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: var(--transition-standard);
+}
+
+.social-btn:hover {
+  background: #f1f5f9;
+  border-color: #cbd5e1;
+}
+
+.social-btn img {
+  width: 18px !important;
+  height: 18px !important;
+}
+
+.social-btn span {
+  font-weight: 600;
+  color: #334155;
+  font-size: 0.9rem;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  margin: 28px 0;
+  color: #94a3b8;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+}
+
+.divider::before, .divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #f1f5f9;
+}
+
+.divider span { padding: 0 12px; }
+
+.submit-btn {
+  width: 100%;
+  padding: 14px;
+  background: var(--primary-leaf);
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  transition: var(--transition-standard);
+}
+
+.submit-btn:hover {
+  background: #23533e;
+  transform: translateY(-1px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.forgot-row {
+  margin-top: -12px;
+  margin-bottom: 24px;
+  text-align: right;
+}
+
+.forgot-row a {
+  color: var(--primary-leaf);
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* ===== sorry for comments if not understandable - auto comment recomendation being too formal but however its faster so - _ - ===== */

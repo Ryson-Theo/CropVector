@@ -1,0 +1,1922 @@
+{
+  "metadata": {
+    "title": "Comprehensive Agriculture Knowledge Hub - India & Global",
+    "description": "Wiki-style, DIY, government, and educational resources for farmers",
+    "version": "1.0",
+    "last_updated": "2024-01-15",
+    "total_resources": 85,
+    "categories": 12
+  },
+  "knowledge_hub": {
+    "indian_government_wiki_style": {
+      "category_name": "Indian Government Knowledge Portals",
+      "description": "Official government portals with comprehensive agricultural information",
+      "resources": [
+        {
+          "id": "govt_001",
+          "name": "Farmer Portal (Govt of India)",
+          "url": "https://pmkisan.gov.in/",
+          "type": "Comprehensive Portal",
+          "language": ["English", "Hindi", "Tamil", "Telugu", "Marathi", "Gujarati", "Punjabi", "Kannada", "Malayalam", "Odia", "Assamese", "Bengali"],
+          "description": "One-stop shop for farmers with crop advisories, weather updates, market prices, and scheme information",
+          "features": [
+            "Crop-wise cultivation practices",
+            "District-level weather forecasts",
+            "Market price trends",
+            "Government scheme directory",
+            "Expert advisory system",
+            "Multilingual support"
+          ],
+          "best_for": ["All Indian farmers", "Scheme information", "Crop planning"],
+          "contact": {
+            "helpline": "1800-180-1551",
+            "email": "farmer@gov.in"
+          },
+          "last_verified": "2024-01-15"
+        },
+        {
+          "id": "govt_002",
+          "name": "eNAM Knowledge Repository",
+          "url": "https://enam.gov.in/web/resources",
+          "type": "Market Wiki",
+          "language": ["English", "Hindi", "Regional"],
+          "description": "Comprehensive knowledge base on agricultural marketing, trading practices, and mandi operations",
+          "features": [
+            "Mandi directory with GPS locations",
+            "Commodity quality standards",
+            "Trading procedures",
+            "Fee structures by state",
+            "Transportation guidelines",
+            "Payment systems"
+          ],
+          "best_for": ["Farmers selling produce", "Trader registration", "Market understanding"],
+          "contact": {
+            "helpline": "1800-270-0224",
+            "email": "support-enam@gov.in"
+          }
+        },
+        {
+          "id": "govt_003",
+          "name": "Soil Health Card Portal",
+          "url": "https://soilhealth.dac.gov.in",
+          "type": "Soil Wiki",
+          "language": ["English", "Hindi"],
+          "description": "Detailed soil health information, testing results, and fertilizer recommendations",
+          "features": [
+            "Download soil health cards",
+            "Fertilizer recommendation engine",
+            "Micronutrient deficiency guide",
+            "Soil testing lab locator",
+            "Organic carbon calculator",
+            "pH management guide"
+          ],
+          "best_for": ["Soil management", "Fertilizer planning", "Sustainable farming"],
+          "contact": {
+            "email": "ncof.dac@gov.in",
+            "address": "NCOF, Hapur Road, Ghaziabad"
+          }
+        },
+        {
+          "id": "govt_004",
+          "name": "Agmarknet Knowledge Bank",
+          "url": "https://agmarknet.gov.in",
+          "type": "Market Intelligence Wiki",
+          "language": ["English", "Hindi"],
+          "description": "Extensive database on agricultural commodity prices, trends, and market analysis",
+          "features": [
+            "Daily prices from 3,000+ mandis",
+            "Historical price trends",
+            "Commodity arrival information",
+            "Grade-wise rates",
+            "Seasonal variation charts",
+            "Market analysis reports"
+          ],
+          "best_for": ["Price discovery", "Market timing", "Crop selection"]
+        },
+        {
+          "id": "govt_005",
+          "name": "ICAR Knowledge Portal",
+          "url": "https://icar.org.in",
+          "type": "Research Wiki",
+          "language": ["English"],
+          "description": "Indian Council of Agricultural Research comprehensive knowledge repository",
+          "features": [
+            "Crop production technologies",
+            "Package of practices",
+            "Research publications",
+            "Variety database",
+            "Pest management protocols",
+            "Climate-resilient practices"
+          ],
+          "best_for": ["Research-based farming", "New technologies", "Variety selection"],
+          "contact": {
+            "phone": "011-25843671",
+            "address": "Krishi Anusandhan Bhavan, Pusa, New Delhi"
+          }
+        },
+        {
+          "id": "govt_006",
+          "name": "National Horticulture Mission Portal",
+          "url": "https://midh.gov.in",
+          "type": "Horticulture Wiki",
+          "language": ["English", "Hindi"],
+          "description": "Complete guide to horticulture crops, cultivation practices, and post-harvest management",
+          "features": [
+            "Crop-specific cultivation guides",
+            "Protected cultivation techniques",
+            "Post-harvest management",
+            "Cold storage guidelines",
+            "Export protocols",
+            "Organic horticulture"
+          ],
+          "best_for": ["Horticulture farmers", "Greenhouse cultivation", "Export-oriented farming"]
+        },
+        {
+          "id": "govt_007",
+          "name": "Agricultural Census Data Portal",
+          "url": "https://agcensus.da.gov.in/",
+          "type": "Statistical Wiki",
+          "language": ["English"],
+          "description": "Comprehensive agricultural statistics and census data",
+          "features": [
+            "Land use statistics",
+            "Irrigation coverage data",
+            "Crop area and production",
+            "Farm machinery statistics",
+            "Livestock census",
+            "District-wise data"
+          ],
+          "best_for": ["Researchers", "Policy makers", "Agricultural planning"]
+        },
+        {
+          "id": "govt_008",
+          "name": "Kisan Call Center Knowledge Base",
+          "url": "https://dackkms.gov.in",
+          "type": "Advisory Wiki",
+          "language": ["English", "Hindi", "Regional"],
+          "description": "Repository of farmer queries and expert answers",
+          "features": [
+            "Crop problem solutions",
+            "Seasonal advisories",
+            "FAQ database",
+            "Voice-based search",
+            "Expert connect",
+            "Regional language support"
+          ],
+          "best_for": ["Quick problem solving", "Seasonal guidance", "Peer learning"],
+          "contact": {
+            "helpline": "1800-180-1551"
+          }
+        },
+        {
+          "id": "govt_009",
+          "name": "National Centre of Organic Farming",
+          "url": "https://nconf.dac.gov.in/",
+          "type": "Organic Wiki",
+          "language": ["English", "Hindi"],
+          "description": "Comprehensive organic farming guide with certification procedures",
+          "features": [
+            "Organic farming techniques",
+            "PGS certification process",
+            "Input suppliers directory",
+            "Organic input production",
+            "Market linkage",
+            "Success stories"
+          ],
+          "best_for": ["Organic farmers", "Certification seekers", "Natural farming"]
+        },
+        {
+          "id": "govt_010",
+          "name": "Agricultural Technology Information Centre",
+          "url": "https://agritech.tnau.ac.in",
+          "type": "Extension Wiki",
+          "language": ["English", "Tamil"],
+          "description": "Tamil Nadu Agricultural University knowledge portal with extensive crop guides",
+          "features": [
+            "Crop production guides",
+            "Pest and disease atlas",
+            "Weather-based agro-advisories",
+            "Organic farming methods",
+            "Irrigation scheduling",
+            "Machinery selection guide"
+          ],
+          "best_for": ["Tamil Nadu farmers", "Technical guidance", "University research"]
+        }
+      ]
+    },
+    "wiki_style_platforms": {
+      "category_name": "Wiki-Style Knowledge Platforms",
+      "description": "Open, editable, and community-driven agricultural knowledge bases",
+      "resources": [
+        {
+          "id": "wiki_001",
+          "name": "WikiHow Agriculture & Farming",
+          "url": "https://www.wikihow.com/Category:Farming",
+          "type": "How-To Wiki",
+          "language": "English",
+          "description": "Step-by-step visual guides on every aspect of farming",
+          "features": [
+            "Illustrated step-by-step guides",
+            "Community edited and verified",
+            "Video tutorials",
+            "Expert reviewed content",
+            "Troubleshooting guides",
+            "Beginner to advanced topics"
+          ],
+          "topics_covered": [
+            "Crop cultivation",
+            "Livestock management",
+            "Soil preparation",
+            "Pest control",
+            "Harvesting techniques",
+            "Farm equipment use"
+          ],
+          "best_for": ["Beginners", "Visual learners", "Quick solutions"]
+        },
+        {
+          "id": "wiki_002",
+          "name": "Appropedia Agriculture Portal",
+          "url": "https://www.appropedia.org/Category:Agriculture",
+          "type": "Sustainability Wiki",
+          "language": "English",
+          "description": "Open-source appropriate technology for sustainable agriculture",
+          "features": [
+            "Open-source designs",
+            "DIY farm tools",
+            "Sustainable techniques",
+            "Low-cost solutions",
+            "Community contributions",
+            "Global best practices"
+          ],
+          "special_focus": [
+            "Permaculture",
+            "Appropriate technology",
+            "Water harvesting",
+            "Renewable energy in farming",
+            "Small-scale solutions"
+          ],
+          "best_for": ["Sustainable farming", "DIY enthusiasts", "Low-cost solutions"]
+        },
+        {
+          "id": "wiki_003",
+          "name": "Wikibooks Horticulture",
+          "url": "https://en.wikibooks.org/wiki/Horticulture",
+          "type": "Open Textbook Wiki",
+          "language": "English",
+          "description": "Free comprehensive textbook on horticulture and plant science",
+          "features": [
+            "Academic-level content",
+            "Structured curriculum",
+            "Editable by experts",
+            "Printable format",
+            "Reference citations",
+            "Comprehensive index"
+          ],
+          "chapters": [
+            "Plant biology",
+            "Soil science",
+            "Plant propagation",
+            "Pomology",
+            "Olericulture",
+            "Floriculture",
+            "Post-harvest technology"
+          ],
+          "best_for": ["Students", "Horticulturists", "Academic reference"]
+        },
+        {
+          "id": "wiki_004",
+          "name": "Permaculture Wiki",
+          "url": "https://permaculture.fandom.com/wiki/Permaculture",
+          "type": "Design Wiki",
+          "language": "English",
+          "description": "Comprehensive permaculture design principles and techniques",
+          "features": [
+            "Design principles database",
+            "Zone planning guides",
+            "Plant guilds database",
+            "Water management designs",
+            "Energy flow diagrams",
+            "Community case studies"
+          ],
+          "key_areas": [
+            "Food forests",
+            "Agroforestry",
+            "Natural building",
+            "Water harvesting",
+            "Renewable systems",
+            "Community resilience"
+          ],
+          "best_for": ["Permaculture designers", "Sustainable systems", "Holistic farming"]
+        },
+        {
+          "id": "wiki_005",
+          "name": "Practical Farm Wiki",
+          "url": "https://www.wikihow.com/Start-a-Farm",
+          "type": "Practical Wiki",
+          "language": "English",
+          "description": "Hands-on farming guides with practical DIY approach",
+          "features": [
+            "Detailed project guides",
+            "Cost breakdowns",
+            "Tool lists",
+            "Seasonal calendars",
+            "Preservation techniques",
+            "Homestead integration"
+          ],
+          "content_types": [
+            "How-to articles",
+            "Photo tutorials",
+            "Video demonstrations",
+            "Recipe integration",
+            "Troubleshooting",
+            "Resource lists"
+          ],
+          "best_for": ["Homesteaders", "Self-reliance enthusiasts", "Small farmers"]
+        },
+        {
+          "id": "wiki_006",
+          "name": "FarmHack Wiki",
+          "url": "https://www.appropedia.org/Farm_Hack_Guide",
+          "type": "Innovation Wiki",
+          "language": "English",
+          "description": "Open-source farm tools and technology innovations",
+          "features": [
+            "Open-source tool designs",
+            "3D printable farm tools",
+            "Arduino projects for farming",
+            "Community innovation sharing",
+            "Tool modification guides",
+            "Cost-effective solutions"
+          ],
+          "categories": [
+            "Farm tools",
+            "Monitoring systems",
+            "Irrigation automation",
+            "Harvesting aids",
+            "Processing equipment",
+            "Renewable energy"
+          ],
+          "best_for": ["Tech-savvy farmers", "Innovators", "Open-source enthusiasts"]
+        },
+        {
+          "id": "wiki_007",
+          "name": "Plants For A Future",
+          "url": "https://pfaf.org",
+          "type": "Plant Database Wiki",
+          "language": "English",
+          "description": "Extensive database of useful plants for temperate and tropical regions",
+          "features": [
+            "7,000+ plant species database",
+            "Edible and medicinal uses",
+            "Cultivation requirements",
+            "Climate adaptability",
+            "Database search filters",
+            "User contributions"
+          ],
+          "search_filters": [
+            "Hardiness zone",
+            "Soil type",
+            "pH range",
+            "Sun exposure",
+            "Water needs",
+            "Edible parts"
+          ],
+          "best_for": ["Crop diversification", "Agroforestry", "Alternative crops"]
+        },
+        {
+          "id": "wiki_008",
+          "name": "Echocommunity Wiki",
+          "url": "https://www.echocommunity.org/resources",
+          "type": "Development Wiki",
+          "language": ["English", "Spanish", "French"],
+          "description": "Agricultural solutions for small-scale farmers in developing countries",
+          "features": [
+            "Appropriate technology database",
+            "Cultural adaptation guides",
+            "Low-input techniques",
+            "Nutrition-focused farming",
+            "Community development",
+            "Technical notes library"
+          ],
+          "focus_areas": [
+            "Tropical agriculture",
+            "Small-scale livestock",
+            "Seed saving",
+            "Natural pest management",
+            "Composting",
+            "Water conservation"
+          ],
+          "best_for": ["Development workers", "Small-scale farmers", "Tropical agriculture"]
+        },
+        {
+          "id": "wiki_009",
+          "name": "Organic Farming Wiki",
+          "url": "https://en.wikipedia.org/wiki/Organic_farming",
+          "type": "Encyclopedia Wiki",
+          "language": "English",
+          "description": "Comprehensive encyclopedia article on organic farming with extensive references",
+          "features": [
+            "Scientific basis",
+            "Historical development",
+            "Certification standards",
+            "Global statistics",
+            "Research citations",
+            "Regional variations"
+          ],
+          "sections": [
+            "History",
+            "Methods",
+            "Standards",
+            "Economics",
+            "Productivity",
+            "Environmental impact",
+            "Regional support"
+          ],
+          "best_for": ["Research reference", "Certification understanding", "Policy makers"]
+        },
+        {
+          "id": "wiki_010",
+          "name": "Agronomy Wiki",
+          "url": "https://agronomy.org",
+          "type": "Scientific Wiki",
+          "language": "English",
+          "description": "American Society of Agronomy knowledge resources",
+          "features": [
+            "Peer-reviewed articles",
+            "Research summaries",
+            "Certification programs",
+            "Career resources",
+            "Meeting proceedings",
+            "Publication database"
+          ],
+          "best_for": ["Agronomists", "Researchers", "Professional development"]
+        }
+      ]
+    },
+    "diy_farming_guides": {
+      "category_name": "DIY Farming & Self-Sufficiency",
+      "description": "Do-it-yourself guides for farming, food preservation, and homesteading",
+      "resources": [
+        {
+          "id": "diy_001",
+          "name": "The Spruce Agriculture",
+          "url": "https://www.thespruce.com/gardening-4127780",
+          "type": "DIY Guide",
+          "language": "English",
+          "description": "Beginner-friendly DIY farming guides with expert review",
+          "features": [
+            "Step-by-step instructions",
+            "Tool recommendations",
+            "Seasonal checklists",
+            "Problem solving",
+            "Cost estimates",
+            "Safety guidelines"
+          ],
+          "categories": [
+            "Starting a farm",
+            "Livestock basics",
+            "Crop planning",
+            "Soil building",
+            "Pest management",
+            "Harvest and storage"
+          ],
+          "best_for": ["Beginners", "Urban farmers", "Small-scale operations"]
+        },
+        {
+          "id": "diy_002",
+          "name": "Mother Earth News",
+          "url": "https://www.motherearthnews.com",
+          "type": "DIY Magazine",
+          "language": "English",
+          "description": "Pioneering magazine for organic farming and self-reliant living",
+          "features": [
+            "Archive of 50+ years",
+            "DIY project plans",
+            "Livestock guides",
+            "Renewable energy",
+            "Food preservation",
+            "Natural health"
+          ],
+          "popular_sections": [
+            "Organic gardening",
+            "Homestead animals",
+            "Green building",
+            "Renewable energy",
+            "Real food",
+            "Nature and environment"
+          ],
+          "best_for": ["Homesteaders", "Organic enthusiasts", "Self-reliant living"]
+        },
+        {
+          "id": "diy_003",
+          "name": "Instructables Farming",
+          "url": "https://www.instructables.com/search/projects/all?q=agriculture&projects=all",
+          "type": "Project Wiki",
+          "language": "English",
+          "description": "Community-contributed DIY farming projects with detailed instructions",
+          "features": [
+            "Photo step-by-steps",
+            "Material lists",
+            "Cost breakdowns",
+            "User ratings",
+            "Q&A sections",
+            "Video attachments"
+          ],
+          "project_types": [
+            "Greenhouse builds",
+            "Irrigation systems",
+            "Compost bins",
+            "Chicken coops",
+            "Bee hives",
+            "Solar dryers"
+          ],
+          "best_for": ["DIY builders", "Project-based learners", "Makers"]
+        },
+        {
+          "id": "diy_004",
+          "name": "Open Source Ecology - Global Village Construction Set",
+          "url": "https://www.opensourceecology.org",
+          "type": "Open Hardware Wiki",
+          "language": "English",
+          "description": "Open-source blueprints for 50 industrial machines for small-scale farming",
+          "features": [
+            "Open-source designs",
+            "3D models",
+            "Instructional videos",
+            "Cost comparisons",
+            "Modular systems",
+            "Community development"
+          ],
+          "machines": [
+            "Tractor",
+            "Brick press",
+            "Hay rake",
+            "Cultivator",
+            "Seeder",
+            "Micro-combine",
+            "Solar concentrator"
+          ],
+          "best_for": ["Open-source advocates", "Appropriate technology", "Community building"]
+        },
+        {
+          "id": "diy_005",
+          "name": "Survival Life - Homesteading",
+          "url": "https://survivallife.com/category/homesteading/",
+          "type": "Survival Wiki",
+          "language": "English",
+          "description": "Self-sufficiency and homesteading guides with emergency preparedness focus",
+          "features": [
+            "Off-grid techniques",
+            "Emergency food production",
+            "Water security",
+            "Alternative energy",
+            "Food preservation",
+            "Security integration"
+          ],
+          "best_for": ["Preppers", "Off-grid living", "Emergency preparedness"]
+        },
+        {
+          "id": "diy_006",
+          "name": "The Prairie Homestead",
+          "url": "https://www.theprairiehomestead.com",
+          "type": "Blog Wiki",
+          "language": "English",
+          "description": "Practical homesteading tutorials with personal experience focus",
+          "features": [
+            "From-scratch recipes",
+            "Livestock care guides",
+            "Garden planning",
+            "DIY natural products",
+            "Seasonal living",
+            "E-book resources"
+          ],
+          "best_for": ["Modern homesteaders", "From-scratch cooking", "Family farming"]
+        },
+        {
+          "id": "diy_007",
+          "name": "New Life on a Homestead",
+          "url": "https://newlifeonahomestead.com",
+          "type": "Homestead Wiki",
+          "language": "English",
+          "description": "Comprehensive homesteading resource with farming focus",
+          "features": [
+            "Animal husbandry",
+            "Gardening guides",
+            "Food preservation",
+            "Natural remedies",
+            "Sustainable living",
+            "Income generation"
+          ],
+          "best_for": ["New homesteaders", "Income generation", "Sustainable families"]
+        },
+        {
+          "id": "diy_008",
+          "name": "Morning Chores - Homesteading",
+          "url": "https://morningchores.com",
+          "type": "How-To Wiki",
+          "language": "English",
+          "description": "Detailed how-to guides for farming and homesteading tasks",
+          "features": [
+            "Daily chore lists",
+            "Seasonal guides",
+            "Animal care",
+            "Garden planning",
+            "Recipe collections",
+            "Tool reviews"
+          ],
+          "best_for": ["Daily operations", "Chore organization", "Beginner homesteaders"]
+        },
+        {
+          "id": "diy_009",
+          "name": "Grow Journey",
+          "url": "https://growjourney.com",
+          "type": "Seed Wiki",
+          "language": "English",
+          "description": "Heirloom seed growing guides and organic gardening tutorials",
+          "features": [
+            "Seed starting guides",
+            "Heirloom varieties",
+            "Companion planting",
+            "Organic pest control",
+            "Harvest techniques",
+            "Seed saving"
+          ],
+          "best_for": ["Seed savers", "Heirloom growers", "Organic gardeners"]
+        },
+        {
+          "id": "diy_010",
+          "name": "Attainable Sustainable",
+          "url": "https://www.attainable-sustainable.net",
+          "type": "Sustainability Wiki",
+          "language": "English",
+          "description": "DIY guides for sustainable living and food production",
+          "features": [
+            "Preservation techniques",
+            "Gardening methods",
+            "Livestock basics",
+            "Natural products",
+            "Waste reduction",
+            "Energy efficiency"
+          ],
+          "best_for": ["Sustainable living", "Urban homesteading", "Waste reduction"]
+        }
+      ]
+    },
+    "multilingual_indian_resources": {
+      "category_name": "Indian Language Farming Resources",
+      "description": "Regional language farming portals and wikis for Indian farmers",
+      "resources": [
+        {
+          "id": "ind_001",
+          "name": "Krishi Jagran (Hindi)",
+          "url": "https://hindi.krishijagran.com",
+          "type": "News Wiki",
+          "language": "Hindi",
+          "description": "Comprehensive agricultural news and knowledge in Hindi",
+          "features": [
+            "Daily market rates",
+            "Crop advisories",
+            "Success stories",
+            "Government scheme updates",
+            "Expert columns",
+            "Video content"
+          ],
+          "best_for": ["Hindi-speaking farmers", "North India", "Current affairs"]
+        },
+        {
+          "id": "ind_002",
+          "name": "AgriFarming.in (Tamil)",
+          "url": "https://www.agrifarming.in/category/agriculture-farming",
+          "type": "Guide Wiki",
+          "language": "Tamil",
+          "description": "Detailed farming guides in Tamil for Tamil Nadu farmers",
+          "features": [
+            "Crop cultivation steps",
+            "Local variety information",
+            "Seasonal calendars",
+            "Pest management in Tamil",
+            "Irrigation guides",
+            "Government schemes"
+          ],
+          "best_for": ["Tamil Nadu farmers", "Local language preference", "Detailed guides"]
+        },
+        {
+          "id": "ind_003",
+          "name": "Fasal Kranti (Hindi)",
+          "url": "https://www.fasalkranti.in",
+          "type": "Advisory Wiki",
+          "language": "Hindi",
+          "description": "Daily farming updates and mandi rates in Hindi",
+          "features": [
+            "Mandi bhav daily",
+            "Weather forecasts",
+            "Cultivation tips",
+            "Organic farming guide",
+            "Government schemes",
+            "Disease alerts"
+          ],
+          "best_for": ["Daily updates", "Price tracking", "Hindi speakers"]
+        },
+        {
+          "id": "ind_004",
+          "name": "Rythu Nestam (Telugu)",
+          "url": "https://rythunestham.in/",
+          "type": "Farmer Portal",
+          "language": "Telugu",
+          "description": "Telugu agricultural portal for Andhra Pradesh and Telangana farmers",
+          "features": [
+            "Crop management in Telugu",
+            "AP/Telangana schemes",
+            "Regional weather",
+            "Expert videos",
+            "Success stories",
+            "Market information"
+          ],
+          "best_for": ["Telugu farmers", "AP/Telangana specific", "Regional content"]
+        },
+        {
+          "id": "ind_005",
+          "name": "Krishi Malayalam",
+          "url": "https://malayalam.krishijagran.com/",
+          "type": "Kerala Wiki",
+          "language": "Malayalam",
+          "description": "Agricultural information portal for Kerala farmers",
+          "features": [
+            "Kerala crop guides",
+            "Coconut cultivation",
+            "Rubber and spices",
+            "Fish farming",
+            "Organic Kerala",
+            "Kerala government schemes"
+          ],
+          "best_for": ["Kerala farmers", "Malayalam speakers", "Coastal agriculture"]
+        },
+        {
+          "id": "ind_006",
+          "name": "Krishi Marathi",
+          "url": "https://krushimarathi.com/",
+          "type": "Maharashtra Wiki",
+          "language": "Marathi",
+          "description": "Farming guides and market information in Marathi",
+          "features": [
+            "Maharashtra crops",
+            "Sugarcane guides",
+            "Grape cultivation",
+            "APMC rates",
+            "Marathi videos",
+            "Expert advice"
+          ],
+          "best_for": ["Maharashtra farmers", "Marathi speakers", "Western India"]
+        },
+        {
+          "id": "ind_007",
+          "name": "Krishi Bangla",
+          "url": "https://www.krishibangla.com",
+          "type": "Bengali Wiki",
+          "language": "Bengali",
+          "description": "Agricultural knowledge portal for West Bengal farmers",
+          "features": [
+            "Bengal crop guides",
+            "Rice cultivation",
+            "Jute farming",
+            "Fish farming",
+            "Government schemes",
+            "Bengali videos"
+          ],
+          "best_for": ["West Bengal farmers", "Bengali speakers", "Eastern India"]
+        },
+        {
+          "id": "ind_008",
+          "name": "Krishi Gujarat",
+          "url": "https://gujarati.krishijagran.com/",
+          "type": "Gujarati Wiki",
+          "language": "Gujarati",
+          "description": "Farming information portal in Gujarati",
+          "features": [
+            "Gujarat crops",
+            "Cotton cultivation",
+            "Groundnut farming",
+            "Irrigation methods",
+            "Cooperative info",
+            "Market rates"
+          ],
+          "best_for": ["Gujarat farmers", "Gujarati speakers", "Western India"]
+        },
+        {
+          "id": "ind_009",
+          "name": "Krishi Kannada",
+          "url": "https://kannada.krishijagran.com/",
+          "type": "Karnataka Wiki",
+          "language": "Kannada",
+          "description": "Agricultural portal for Karnataka farmers in Kannada",
+          "features": [
+            "Karnataka crops",
+            "Ragi cultivation",
+            "Coffee and spices",
+            "Silk farming",
+            "Kannada videos",
+            "Expert columns"
+          ],
+          "best_for": ["Karnataka farmers", "Kannada speakers", "Southern India"]
+        },
+        {
+          "id": "ind_010",
+          "name": "Krishi Punjabi",
+          "url": "https://punjabi.krishijagran.com/",
+          "type": "Punjabi Wiki",
+          "language": "Punjabi",
+          "description": "Farming knowledge portal in Punjabi for Punjab and Haryana",
+          "features": [
+            "Wheat and rice",
+            "Mechanized farming",
+            "Dairy farming",
+            "APMC information",
+            "Punjabi videos",
+            "Success stories"
+          ],
+          "best_for": ["Punjab/Haryana farmers", "Punjabi speakers", "Northern plains"]
+        },
+        {
+          "id": "ind_011",
+          "name": "Krishi Odia",
+          "url": "https://odia.krishijagran.com/",
+          "type": "Odia Wiki",
+          "language": "Odia",
+          "description": "Agricultural information in Odia for Odisha farmers",
+          "features": [
+            "Odisha crops",
+            "Rice varieties",
+            "Fish farming",
+            "Tribal farming",
+            "Government schemes",
+            "Weather updates"
+          ],
+          "best_for": ["Odisha farmers", "Odia speakers", "Eastern coastal"]
+        },
+        {
+          "id": "ind_012",
+          "name": "Krishi Assamese",
+          "url": "https://asomiya.krishijagran.com/",
+          "type": "Assamese Wiki",
+          "language": "Assamese",
+          "description": "Farming portal in Assamese for Northeast India",
+          "features": [
+            "Tea cultivation",
+            "Bamboo farming",
+            "Rice varieties",
+            "Horticulture",
+            "Government schemes",
+            "Expert advice"
+          ],
+          "best_for": ["Assam farmers", "Assamese speakers", "Northeast India"]
+        }
+      ]
+    },
+    "crop_specific_wikis": {
+      "category_name": "Crop-Specific Knowledge Bases",
+      "description": "Specialized wikis and databases for specific crops",
+      "resources": [
+        {
+          "id": "crop_001",
+          "name": "Rice Knowledge Bank (IRRI)",
+          "url": "http://www.knowledgebank.irri.org",
+          "type": "Rice Wiki",
+          "language": "English",
+          "description": "World's most comprehensive rice production knowledge base",
+          "features": [
+            "Rice production manual",
+            "Variety database",
+            "Pest and disease guide",
+            "Nutrient management",
+            "Water management",
+            "Post-harvest handling"
+          ],
+          "best_for": ["Rice farmers", "Researchers", "Extension workers"]
+        },
+        {
+          "id": "crop_002",
+          "name": "Maize Knowledge Hub",
+          "url": "https://maize.org",
+          "type": "Maize Wiki",
+          "language": "English",
+          "description": "Global maize production and research information",
+          "features": [
+            "Variety catalog",
+            "Production techniques",
+            "Pest management",
+            "Market trends",
+            "Research updates",
+            "Climate adaptation"
+          ],
+          "best_for": ["Maize growers", "Seed industry", "Researchers"]
+        },
+        {
+          "id": "crop_003",
+          "name": "Cotton Knowledge Bank",
+          "url": "https://mahadhan.co.in/crop-portfolio/cotton-farming/",
+          "type": "Cotton Wiki",
+          "language": "English",
+          "description": "International cotton advisory committee knowledge base",
+          "features": [
+            "Cotton statistics",
+            "Production guides",
+            "Quality standards",
+            "Market information",
+            "Sustainability practices",
+            "Policy information"
+          ],
+          "best_for": ["Cotton farmers", "Textile industry", "Policy makers"]
+        },
+        {
+          "id": "crop_004",
+          "name": "Tea Research Association",
+          "url": "https://www.tocklai.org",
+          "type": "Tea Wiki",
+          "language": "English",
+          "description": "Comprehensive tea cultivation and research knowledge",
+          "features": [
+            "Cultivation practices",
+            "Processing techniques",
+            "Quality standards",
+            "Pest management",
+            "Climate adaptation",
+            "Research publications"
+          ],
+          "best_for": ["Tea planters", "Northeast India", "South India tea"]
+        },
+        {
+          "id": "crop_005",
+          "name": "Coffee Board of India",
+          "url": "https://coffeeboard.gov.in/",
+          "type": "Coffee Wiki",
+          "language": "English",
+          "description": "Official coffee cultivation guide for Indian coffee growers",
+          "features": [
+            "Cultivation practices",
+            "Processing methods",
+            "Quality standards",
+            "Marketing information",
+            "Research updates",
+            "Export guidelines"
+          ],
+          "best_for": ["Coffee growers", "Karnataka/Kerala/Tamil Nadu", "Export focus"]
+        },
+        {
+          "id": "crop_006",
+          "name": "Spices Board India",
+          "url": "https://www.indianspices.com",
+          "type": "Spices Wiki",
+          "language": "English",
+          "description": "Complete guide to spice cultivation in India",
+          "features": [
+            "Spice cultivation guides",
+            "Processing techniques",
+            "Quality standards",
+            "Export procedures",
+            "Organic certification",
+            "Market intelligence"
+          ],
+          "best_for": ["Spice farmers", "Kerala/Karnataka", "Export-oriented"]
+        },
+        {
+          "id": "crop_007",
+          "name": "Coconut Development Board",
+          "url": "https://coconutboard.gov.in/",
+          "type": "Coconut Wiki",
+          "language": ["English", "Malayalam", "Tamil", "Kannada"],
+          "description": "Comprehensive coconut cultivation knowledge base",
+          "features": [
+            "Cultivation practices",
+            "Value-added products",
+            "Processing techniques",
+            "Marketing support",
+            "Research updates",
+            "Variety information"
+          ],
+          "best_for": ["Coconut farmers", "Coastal states", "Value addition"]
+        },
+        {
+          "id": "crop_008",
+          "name": "Sugarcane Breeding Institute",
+          "url": "https://sugarcane.res.in/",
+          "type": "Sugarcane Wiki",
+          "language": "English",
+          "description": "ICAR sugarcane research and cultivation knowledge",
+          "features": [
+            "Variety database",
+            "Cultivation techniques",
+            "Disease management",
+            "By-product utilization",
+            "Research papers",
+            "Extension materials"
+          ],
+          "best_for": ["Sugarcane growers", "UP/Maharashtra/Karnataka", "Research-based"]
+        },
+        {
+          "id": "crop_009",
+          "name": "Potato Knowledge Hub",
+          "url": "https://cipotato.org",
+          "type": "Potato Wiki",
+          "language": "English",
+          "description": "International potato center knowledge base",
+          "features": [
+            "Variety catalog",
+            "Seed production",
+            "Storage techniques",
+            "Processing methods",
+            "Disease management",
+            "Climate resilience"
+          ],
+          "best_for": ["Potato growers", "Seed producers", "UP/West Bengal/Punjab"]
+        },
+        {
+          "id": "crop_010",
+          "name": "Pulses Knowledge Portal",
+          "url": "https://www.icar-iipr.org.in/",
+          "type": "Pulses Wiki",
+          "language": "English",
+          "description": "Indian Institute of Pulses Research knowledge base",
+          "features": [
+            "Pulses cultivation",
+            "Variety information",
+            "Nutrient management",
+            "Disease control",
+            "Processing guides",
+            "Marketing information"
+          ],
+          "best_for": ["Pulses growers", "MP/UP/Rajasthan", "Protein crops"]
+        }
+      ]
+    },
+    "pest_disease_management": {
+      "category_name": "Pest & Disease Management Wikis",
+      "description": "Specialized resources for crop protection and integrated pest management",
+      "resources": [
+        {
+          "id": "pest_001",
+          "name": "Plantwise Knowledge Bank",
+          "url": "https://www.plantwise.org/KnowledgeBank",
+          "type": "Diagnostic Wiki",
+          "language": "English",
+          "description": "Global crop pest and disease diagnosis and management system",
+          "features": [
+            "Visual diagnosis tool",
+            "Pest identification",
+            "Treatment recommendations",
+            "Country-specific data",
+            "IPM guidelines",
+            "Pest distribution maps"
+          ],
+          "best_for": ["Pest identification", "IPM practices", "Quick diagnosis"]
+        },
+        {
+          "id": "pest_002",
+          "name": "IPM Images",
+          "url": "https://www.ipmimages.org",
+          "type": "Image Database",
+          "language": "English",
+          "description": "Extensive image library for pest and disease identification",
+          "features": [
+            "High-resolution images",
+            "Searchable database",
+            "Expert identification",
+            "Multiple life stages",
+            "Damage symptoms",
+            "Beneficial insects"
+          ],
+          "best_for": ["Visual identification", "Educational use", "Extension training"]
+        },
+        {
+          "id": "pest_003",
+          "name": "CABI Invasive Species Compendium",
+          "url": "https://www.cabi.org/isc",
+          "type": "Scientific Wiki",
+          "language": "English",
+          "description": "Comprehensive database on invasive pests and diseases",
+          "features": [
+            "Invasive species data",
+            "Distribution maps",
+            "Management options",
+            "Risk assessments",
+            "Research citations",
+            "Early warning systems"
+          ],
+          "best_for": ["Invasive species", "Quarantine pests", "Risk management"]
+        },
+        {
+          "id": "pest_004",
+          "name": "ICAR-NBAIR",
+          "url": "https://icar.org.in/en/icar-nbair-showcases-breakthrough-biological-control-cassava-mealybug-india",
+          "type": "Beneficial Insects Wiki",
+          "language": "English",
+          "description": "National Bureau of Agriculturally Important Insects knowledge base",
+          "features": [
+            "Beneficial insects database",
+            "Biocontrol agents",
+            "Pollinator information",
+            "Mass production techniques",
+            "Release guidelines",
+            "Research updates"
+          ],
+          "best_for": ["Biocontrol", "Pollinator conservation", "IPM"]
+        },
+        {
+          "id": "pest_005",
+          "name": "Pesticide Action Network",
+          "url": "https://pan-india.org/",
+          "type": "Alternative Wiki",
+          "language": "English",
+          "description": "Information on pesticide alternatives and safe use",
+          "features": [
+            "Pesticide database",
+            "Alternative methods",
+            "Safety guidelines",
+            "Policy information",
+            "Organic alternatives",
+            "Health impacts"
+          ],
+          "best_for": ["Safe pesticide use", "Organic alternatives", "Health safety"]
+        }
+      ]
+    },
+    "soil_water_management": {
+      "category_name": "Soil & Water Management Resources",
+      "description": "Specialized wikis for soil health, water management, and conservation",
+      "resources": [
+        {
+          "id": "soil_001",
+          "name": "Soil Health Card Portal",
+          "url": "https://soilhealth.dac.gov.in",
+          "type": "Government Wiki",
+          "language": ["English", "Hindi"],
+          "description": "Comprehensive soil health information and recommendations",
+          "features": [
+            "Soil test results",
+            "Fertilizer calculator",
+            "Micronutrient guide",
+            "Organic carbon info",
+            "pH management",
+            "Lab locator"
+          ],
+          "best_for": ["Soil management", "Fertilizer planning", "Indian farmers"]
+        },
+        {
+          "id": "soil_002",
+          "name": "ICAR-Indian Institute of Soil Science",
+          "url": "https://iiss.res.in/",
+          "type": "Research Wiki",
+          "language": "English",
+          "description": "Soil science research and management knowledge",
+          "features": [
+            "Soil classification",
+            "Fertility management",
+            "Carbon sequestration",
+            "Research publications",
+            "Training materials",
+            "Database access"
+          ],
+          "best_for": ["Soil scientists", "Advanced management", "Research reference"]
+        },
+        {
+          "id": "soil_003",
+          "name": "Water Technology Centre (IARI)",
+          "url": "https://www.iari.res.in/en/",
+          "type": "Water Wiki",
+          "language": "English",
+          "description": "Agricultural water management technologies and practices",
+          "features": [
+            "Irrigation scheduling",
+            "Water conservation",
+            "Micro-irrigation design",
+            "Drainage management",
+            "Water quality",
+            "Research updates"
+          ],
+          "best_for": ["Irrigation planning", "Water conservation", "Technical design"]
+        },
+        {
+          "id": "soil_004",
+          "name": "Central Soil Salinity Research Centre",
+          "url": "https://cssri.res.in/",
+          "type": "Salinity Wiki",
+          "language": "English",
+          "description": "Management of salt-affected soils and waterlogged areas",
+          "features": [
+            "Salinity management",
+            "Reclamation techniques",
+            "Crop selection for salt",
+            "Drainage systems",
+            "Research updates",
+            "Extension materials"
+          ],
+          "best_for": ["Salt-affected areas", "Coastal regions", "Reclamation"]
+        },
+        {
+          "id": "soil_005",
+          "name": "Rainwater Harvesting Wiki",
+          "url": "https://en.wikiversity.org/wiki/Rainwater_harvesting/Rainwater_harvesting_system",
+          "type": "Rainwater Wiki",
+          "language": "English",
+          "description": "Comprehensive rainwater harvesting techniques and designs",
+          "features": [
+            "Harvesting designs",
+            "Storage options",
+            "Filtration systems",
+            "Groundwater recharge",
+            "Cost estimates",
+            "Case studies"
+          ],
+          "best_for": ["Water scarcity areas", "Dryland farming", "Sustainable water"]
+        }
+      ]
+    },
+    "climate_smart_agriculture": {
+      "category_name": "Climate-Smart Agriculture",
+      "description": "Resources for climate adaptation and mitigation in agriculture",
+      "resources": [
+        {
+          "id": "climate_001",
+          "name": "CGIAR Climate Change, Agriculture and Food Security",
+          "url": "https://ccafs.cgiar.org",
+          "type": "Research Wiki",
+          "language": "English",
+          "description": "Climate-smart agriculture research and practices",
+          "features": [
+            "Climate adaptation strategies",
+            "Mitigation options",
+            "Policy briefs",
+            "Research papers",
+            "Practice guides",
+            "Decision tools"
+          ],
+          "best_for": ["Climate adaptation", "Research-based", "Policy makers"]
+        },
+        {
+          "id": "climate_002",
+          "name": "NICRA - National Innovations in Climate Resilient Agriculture",
+          "url": "https://nicra.icar.gov.in",
+          "type": "Indian Climate Wiki",
+          "language": "English",
+          "description": "ICAR's climate-resilient agriculture knowledge portal",
+          "features": [
+            "Climate-resilient varieties",
+            "Contingency plans",
+            "Village-level weather",
+            "Advisory services",
+            "Success stories",
+            "Research updates"
+          ],
+          "best_for": ["Indian farmers", "Climate resilience", "Contingency planning"]
+        },
+        {
+          "id": "climate_003",
+          "name": "Climate Adaptation Knowledge Portal",
+          "url": "https://www.adaptation-undp.org",
+          "type": "Adaptation Wiki",
+          "language": "English",
+          "description": "UNDP climate adaptation resources for agriculture",
+          "features": [
+            "Adaptation strategies",
+            "Country profiles",
+            "Case studies",
+            "Finance options",
+            "Policy guidance",
+            "Community practices"
+          ],
+          "best_for": ["Adaptation planning", "Development projects", "Policy guidance"]
+        },
+        {
+          "id": "climate_004",
+          "name": "Agroforestry Wiki",
+          "url": "https://www.worldagroforestry.org",
+          "type": "Agroforestry Wiki",
+          "language": "English",
+          "description": "Tree-based farming systems for climate resilience",
+          "features": [
+            "Agroforestry systems",
+            "Tree databases",
+            "Carbon sequestration",
+            "Income diversification",
+            "Soil improvement",
+            "Research updates"
+          ],
+          "best_for": ["Agroforestry", "Carbon farming", "Diversified systems"]
+        }
+      ]
+    },
+    "livestock_animal_husbandry": {
+      "category_name": "Livestock & Animal Husbandry",
+      "description": "Comprehensive resources for livestock management and animal husbandry",
+      "resources": [
+        {
+          "id": "live_001",
+          "name": "National Dairy Development Board",
+          "url": "https://www.nddb.coop",
+          "type": "Dairy Wiki",
+          "language": ["English", "Hindi", "Gujarati"],
+          "description": "Complete dairy development knowledge base",
+          "features": [
+            "Dairy farming practices",
+            "Cattle breeding",
+            "Feed management",
+            "Milk processing",
+            "Cooperative models",
+            "Rural dairy development"
+          ],
+          "best_for": ["Dairy farmers", "Cooperative members", "Milk producers"]
+        },
+        {
+          "id": "live_002",
+          "name": "ICAR-National Dairy Research Institute",
+          "url": "https://www.ndri.res.in/",
+          "type": "Dairy Research Wiki",
+          "language": "English",
+          "description": "Advanced dairy research and extension knowledge",
+          "features": [
+            "Breeding technology",
+            "Nutrition management",
+            "Reproduction techniques",
+            "Disease control",
+            "Research publications",
+            "Training programs"
+          ],
+          "best_for": ["Dairy professionals", "Research-based", "Advanced management"]
+        },
+        {
+          "id": "live_003",
+          "name": "National Bureau of Animal Genetic Resources",
+          "url": "https://nbagr.res.in/",
+          "type": "Breeds Wiki",
+          "language": "English",
+          "description": "Database of Indian livestock and poultry breeds",
+          "features": [
+            "Breed characteristics",
+            "Conservation status",
+            "Performance data",
+            "Distribution maps",
+            "Breed registration",
+            "Research updates"
+          ],
+          "best_for": ["Breed selection", "Conservation", "Indigenous breeds"]
+        },
+        {
+          "id": "live_004",
+          "name": "Poultry Knowledge Portal",
+          "url": "https://www.poultryindia.co.in/",
+          "type": "Poultry Wiki",
+          "language": "English",
+          "description": "Comprehensive poultry production guide",
+          "features": [
+            "Breed information",
+            "Housing designs",
+            "Feed formulation",
+            "Disease management",
+            "Biosecurity",
+            "Economics"
+          ],
+          "best_for": ["Poultry farmers", "Broiler/layer management", "Backyard poultry"]
+        },
+        {
+          "id": "live_005",
+          "name": "Fisheries and Aquaculture Wiki",
+          "url": "https://www.fao.org/fishery/en",
+          "type": "Aquaculture Wiki",
+          "language": "English",
+          "description": "FAO global fisheries and aquaculture knowledge",
+          "features": [
+            "Species profiles",
+            "Culture techniques",
+            "Pond management",
+            "Disease control",
+            "Market information",
+            "Sustainability"
+          ],
+          "best_for": ["Fish farmers", "Aquaculture", "Coastal/inland fisheries"]
+        },
+        {
+          "id": "live_006",
+          "name": "National Institute of Animal Nutrition and Physiology",
+          "url": "https://nianp.icar.gov.in",
+          "type": "Nutrition Wiki",
+          "language": "English",
+          "description": "Animal nutrition and feed technology knowledge",
+          "features": [
+            "Feed composition",
+            "Ration formulation",
+            "Nutrient requirements",
+            "Alternative feeds",
+            "Research updates",
+            "Extension materials"
+          ],
+          "best_for": ["Feed formulation", "Nutrition management", "Cost reduction"]
+        }
+      ]
+    },
+    "market_economics": {
+      "category_name": "Market & Economics",
+      "description": "Resources for agricultural marketing, economics, and trade",
+      "resources": [
+        {
+          "id": "econ_001",
+          "name": "APEDA Knowledge Centre",
+          "url": "https://apeda.gov.in",
+          "type": "Export Wiki",
+          "language": "English",
+          "description": "Complete guide to agricultural exports from India",
+          "features": [
+            "Export procedures",
+            "Quality standards",
+            "Packaging requirements",
+            "Market intelligence",
+            "Financial assistance",
+            "Certification guides"
+          ],
+          "best_for": ["Export-oriented farmers", "Processors", "Exporters"]
+        },
+        {
+          "id": "econ_002",
+          "name": "Directorate of Marketing & Inspection",
+          "url": "https://dmi.gov.in",
+          "type": "Marketing Wiki",
+          "language": ["English", "Hindi"],
+          "description": "Agricultural marketing standards and infrastructure",
+          "features": [
+            "Grading standards",
+            "Market infrastructure",
+            "Storage guidelines",
+            "Market fees",
+            "Regulations",
+            "Training programs"
+          ],
+          "best_for": ["Marketing understanding", "Standardization", "Infrastructure"]
+        },
+        {
+          "id": "econ_003",
+          "name": "Agricultural Produce Market Committee Info",
+          "url": "https://enam.gov.in",
+          "type": "APMC Wiki",
+          "language": ["English", "Hindi", "Regional"],
+          "description": "Comprehensive APMC and mandi information",
+          "features": [
+            "APMC directory",
+            "Fee structures",
+            "Trading procedures",
+            "Electronic trading",
+            "Quality standards",
+            "Dispute resolution"
+          ],
+          "best_for": ["Mandi trading", "Price discovery", "Direct marketing"]
+        },
+        {
+          "id": "econ_004",
+          "name": "Food and Agribusiness Management",
+          "url": "https://www.fao.org/markets-and-trade/en",
+          "type": "Economic Wiki",
+          "language": "English",
+          "description": "FAO agricultural economics and market analysis",
+          "features": [
+            "Market analysis",
+            "Price trends",
+            "Trade policies",
+            "Economic indicators",
+            "Outlook reports",
+            "Policy briefs"
+          ],
+          "best_for": ["Market analysis", "Policy makers", "Researchers"]
+        },
+        {
+          "id": "econ_005",
+          "name": "Commodity Online",
+          "url": "https://www.commodityonline.com",
+          "type": "Market Wiki",
+          "language": "English",
+          "description": "Real-time commodity prices and market news",
+          "features": [
+            "Live prices",
+            "Market news",
+            "Technical analysis",
+            "Historical data",
+            "Expert opinions",
+            "Trading tips"
+          ],
+          "best_for": ["Price tracking", "Market timing", "Commodity trading"]
+        }
+      ]
+    },
+    "education_training": {
+      "category_name": "Education & Training",
+      "description": "Agricultural education, courses, and training resources",
+      "resources": [
+        {
+          "id": "edu_001",
+          "name": "e-Krishi Shiksha",
+          "url": "https://ekrishishiksha.net",
+          "type": "E-Learning",
+          "language": ["English", "Hindi"],
+          "description": "Online agricultural education platform by ICAR",
+          "features": [
+            "Free courses",
+            "Certificate programs",
+            "Expert lectures",
+            "Practical demonstrations",
+            "Self-paced learning",
+            "Mobile access"
+          ],
+          "best_for": ["Skill development", "Certification", "Distance learning"]
+        },
+        {
+          "id": "edu_002",
+          "name": "Agricultural Education Portal",
+          "url": "https://education.icar.gov.in",
+          "type": "Education Wiki",
+          "language": "English",
+          "description": "ICAR agricultural education and admissions information",
+          "features": [
+            "University information",
+            "Course catalogs",
+            "Admission procedures",
+            "Scholarship info",
+            "Research opportunities",
+            "Career guidance"
+          ],
+          "best_for": ["Students", "Higher education", "Career planning"]
+        },
+        {
+          "id": "edu_003",
+          "name": "KVK Portal (Krishi Vigyan Kendras)",
+          "url": "https://kvk.icar.gov.in",
+          "type": "Extension Wiki",
+          "language": ["English", "Hindi", "Regional"],
+          "description": "Network of farm science centers across India",
+          "features": [
+            "Training schedules",
+            "Technology demonstrations",
+            "Expert consultations",
+            "Soil testing services",
+            "Seed distribution",
+            "On-farm trials"
+          ],
+          "best_for": ["On-ground training", "Technology transfer", "Local advisory"]
+        },
+        {
+          "id": "edu_004",
+          "name": "MANAGE - National Institute of Agricultural Extension Management",
+          "url": "https://www.manage.gov.in/",
+          "type": "Management Wiki",
+          "language": "English",
+          "description": "Agricultural extension and management training",
+          "features": [
+            "Training programs",
+            "Distance learning",
+            "Publications",
+            "Consultancy services",
+            "Research",
+            "Networking"
+          ],
+          "best_for": ["Extension workers", "Agripreneurs", "Management training"]
+        },
+        {
+          "id": "edu_005",
+          "name": "AgriMoon",
+          "url": "https://www.agrimoon.com",
+          "type": "Student Wiki",
+          "language": "English",
+          "description": "Agricultural study materials and lecture notes",
+          "features": [
+            "Free lecture notes",
+            "Question papers",
+            "Practical manuals",
+            "Competitive exam prep",
+            "Interview questions",
+            "Career guidance"
+          ],
+          "best_for": ["Agriculture students", "Competitive exams", "Interview prep"]
+        }
+      ]
+    },
+    "technology_innovation": {
+      "category_name": "Technology & Innovation",
+      "description": "Agri-tech, precision farming, and innovation resources",
+      "resources": [
+        {
+          "id": "tech_001",
+          "name": "Digital Agriculture Portal",
+          "url": "https://digitalagriculture.gov.in",
+          "type": "Tech Wiki",
+          "language": ["English", "Hindi"],
+          "description": "Government digital agriculture initiatives and technologies",
+          "features": [
+            "Digital tools directory",
+            "App recommendations",
+            "IoT in agriculture",
+            "Drone technology",
+            "AI/ML applications",
+            "Success stories"
+          ],
+          "best_for": ["Digital adoption", "Smart farming", "Technology integration"]
+        },
+        {
+          "id": "tech_002",
+          "name": "Precision Agriculture Wiki",
+          "url": "https://www.precisionag.com",
+          "type": "Precision Wiki",
+          "language": "English",
+          "description": "Precision farming techniques and technologies",
+          "features": [
+            "Variable rate application",
+            "GPS guidance",
+            "Remote sensing",
+            "Soil mapping",
+            "Yield monitoring",
+            "Equipment reviews"
+          ],
+          "best_for": ["Large farms", "Technology adoption", "Input optimization"]
+        },
+        {
+          "id": "tech_003",
+          "name": "AgFunder News",
+          "url": "https://agfundernews.com",
+          "type": "AgriTech Wiki",
+          "language": "English",
+          "description": "Agri-tech innovation and startup ecosystem news",
+          "features": [
+            "Startup database",
+            "Investment trends",
+            "Technology reviews",
+            "Market analysis",
+            "Innovation spotlights",
+            "Event coverage"
+          ],
+          "best_for": ["Agripreneurs", "Investors", "Technology trends"]
+        },
+        {
+          "id": "tech_004",
+          "name": "ICT in Agriculture",
+          "url": "https://www.fao.org/e-agriculture",
+          "type": "ICT Wiki",
+          "language": "English",
+          "description": "FAO guide to information and communication technologies in agriculture",
+          "features": [
+            "ICT tools guide",
+            "Mobile applications",
+            "Digital extension",
+            "E-learning resources",
+            "Community platforms",
+            "Best practices"
+          ],
+          "best_for": ["Digital extension", "Mobile advisory", "ICT adoption"]
+        },
+        {
+          "id": "tech_005",
+          "name": "DroneDeploy Agriculture",
+          "url": "https://www.dronedeploy.com/solutions/agriculture",
+          "type": "Drone Wiki",
+          "language": "English",
+          "description": "Agricultural drone applications and case studies",
+          "features": [
+            "Crop monitoring",
+            "Spraying guides",
+            "Mapping techniques",
+            "Software platforms",
+            "Regulatory info",
+            "ROI calculators"
+          ],
+          "best_for": ["Drone adoption", "Aerial monitoring", "Precision spraying"]
+        }
+      ]
+    },
+    "women_farmers": {
+      "category_name": "Women in Agriculture",
+      "description": "Resources specifically for women farmers and entrepreneurs",
+      "resources": [
+        {
+          "id": "women_001",
+          "name": "Mahila Kisan Portal",
+          "url": "https://mksp.nrlm.gov.in/#/fl/mksp",
+          "type": "Women Wiki",
+          "language": ["English", "Hindi", "Regional"],
+          "description": "Government portal for women farmers with scheme information",
+          "features": [
+            "Women-specific schemes",
+            "Training programs",
+            "Success stories",
+            "Financial assistance",
+            "Group formation",
+            "Market linkages"
+          ],
+          "best_for": ["Women farmers", "Self-help groups", "Rural women"]
+        },
+        {
+          "id": "women_002",
+          "name": "Self-Employed Women's Association (SEWA) Agriculture",
+          "url": "https://www.sewa.org",
+          "type": "Women's Org Wiki",
+          "language": ["English", "Gujarati", "Hindi"],
+          "description": "Women farmer cooperative and resource center",
+          "features": [
+            "Cooperative models",
+            "Financial services",
+            "Training programs",
+            "Market access",
+            "Insurance products",
+            "Advocacy"
+          ],
+          "best_for": ["Women cooperatives", "Gujarat farmers", "Collective action"]
+        },
+        {
+          "id": "women_003",
+          "name": "Women Farmer Entrepreneurship Support",
+          "url": "https://wep.gov.in",
+          "type": "Entrepreneurship Wiki",
+          "language": ["English", "Hindi"],
+          "description": "Resources for women entrepreneurs in agriculture",
+          "features": [
+            "Funding opportunities",
+            "Mentorship programs",
+            "Business planning",
+            "Networking",
+            "Skill development",
+            "Incubation support"
+          ],
+          "best_for": ["Women entrepreneurs", "Agri-startups", "Business growth"]
+        }
+      ]
+    }
+  },
+  "youtubeDirectory": {
+    "Malayalam": [
+      { "name": "Variety Farmer", "subs": "500K+", "focus": "Mixed farming, Kerala crops" },
+      { "name": "Mini's LifeStyle", "subs": "400K+", "focus": "Home gardening, organic" },
+      { "name": "Ponnappan", "subs": "300K+", "focus": "Traditional Kerala farming" },
+      { "name": "Krishi Lokam", "subs": "250K+", "focus": "Agricultural news, tips" },
+      { "name": "M4 Tech Farming", "subs": "200K+", "focus": "Tech + farming fusion" },
+      { "name": "Prakruthi Krishi", "subs": "150K+", "focus": "Natural farming" },
+      { "name": "Kerala Krishi", "subs": "120K+", "focus": "Government schemes" }
+    ],
+    "Tamil": [
+      { "name": "Nammalvar Organic Farming", "subs": "1M+", "focus": "Natural/organic methods" },
+      { "name": "Nel Jayaraman Heritage Seeds", "subs": "500K+", "focus": "Traditional paddy varieties" },
+      { "name": "Tamil Nadu Agriculture University", "subs": "400K+", "focus": "Scientific farming" },
+      { "name": "Pasumai Payanam", "subs": "350K+", "focus": "Organic vegetable farming" },
+      { "name": "Uzhave Thalai", "subs": "300K+", "focus": "Farmer success stories" },
+      { "name": "Sagunthalai Krishi", "subs": "200K+", "focus": "Women in farming" },
+      { "name": "Kurinji Krishi", "subs": "180K+", "focus": "Hill farming, spices" }
+    ],
+    "Telugu": [
+      { "name": "Rythu Nestham", "subs": "2M+", "focus": "Natural/organic farming success stories" },
+      { "name": "Natural Farming Telugu", "subs": "800K+", "focus": "ZBNF methods" },
+      { "name": "Telugu Krishi", "subs": "600K+", "focus": "AP/Telangana agriculture" },
+      { "name": "Raitu Rajyam", "subs": "500K+", "focus": "Farmer politics, schemes" },
+      { "name": "Annapurna Krishi", "subs": "400K+", "focus": "Women farmers" },
+      { "name": "Palle Pragathi", "subs": "350K+", "focus": "Village development" }
+    ],
+    "Kannada": [
+      { "name": "Krishi Kannada", "subs": "450K+", "focus": "State agriculture dept content" },
+      { "name": "Namma Krishi", "subs": "380K+", "focus": "Organic farming Karnataka" },
+      { "name": "Hasiru Krishi", "subs": "300K+", "focus": "Green farming methods" },
+      { "name": "Raita Vidya", "subs": "250K+", "focus": "Farmer education" },
+      { "name": "Kolar Krishi", "subs": "200K+", "focus": "Silk, dairy, crops" }
+    ],
+    "Hindi": [
+      { "name": "Farming Leader", "subs": "6.5M+", "focus": "Comprehensive farming guidance" },
+      { "name": "My Kisan Dost", "subs": "1.09M+", "focus": "Agricultural information" },
+      { "name": "Hello Kisaan", "subs": "1.04M+", "focus": "Informative videos" },
+      { "name": "India Farming Management", "subs": "834K+", "focus": "Biofloc, organic, machinery" },
+      { "name": "Technical Farming", "subs": "773K+", "focus": "Technical knowledge" },
+      { "name": "Indian Farmer", "subs": "749K+", "focus": "Farming in Hindi" },
+      { "name": "Crops Information", "subs": "338K+", "focus": "Crop-specific guides" },
+      { "name": "Tractor Junction", "subs": "211K+", "focus": "Tractors, schemes" },
+      { "name": "Kheti Ki Shaan", "subs": "154K+", "focus": "Premium farming content" },
+      { "name": "Krishi Jagran", "subs": "500K+", "focus": "News, market rates" }
+    ],
+    "Punjabi": [
+      { "name": "Punjab Krishi", "subs": "600K+", "focus": "Punjab agriculture, wheat/rice" },
+      { "name": "Jatt Di Zameen", "subs": "450K+", "focus": "Farmer stories, equipment" },
+      { "name": "Kisan Ekta", "subs": "400K+", "focus": "Farmer movements, news" },
+      { "name": "Pind Di Khushboo", "subs": "350K+", "focus": "Village life, farming" },
+      { "name": "Agri Punjab", "subs": "300K+", "focus": "Scientific farming" }
+    ],
+    "Bengali": [
+      { "name": "Bangla Krishi", "subs": "500K+", "focus": "WB agriculture, rice, jute" },
+      { "name": "Chashi Bhai", "subs": "400K+", "focus": "Farmer brotherhood" },
+      { "name": "Prakriti Chas", "subs": "350K+", "focus": "Natural farming Bengal" },
+      { "name": "Krishi Darshan", "subs": "300K+", "focus": "Agri news Bengali" },
+      { "name": "Matir Manush", "subs": "250K+", "focus": "Soil and people" }
+    ],
+    "Marathi": [
+      { "name": "Marathi Krishi", "subs": "550K+", "focus": "Maharashtra farming" },
+      { "name": "Sheti Mitra", "subs": "480K+", "focus": "Farmer friend" },
+      { "name": "Pune Krishi", "subs": "400K+", "focus": "Western MH farming" },
+      { "name": "Nashik Farmer", "subs": "350K+", "focus": "Grapes, onion, wine" },
+      { "name": "Vidarbha Krishi", "subs": "300K+", "focus": "Cotton, soyabean" }
+    ],
+    "Gujarati": [
+      { "name": "Gujarat Krishi", "subs": "480K+", "focus": "State agriculture" },
+      { "name": "Khedut Mitra", "subs": "420K+", "focus": "Farmer companion" },
+      { "name": "Saurashtra Farming", "subs": "380K+", "focus": "Groundnut, cotton" },
+      { "name": "Patidar Agri", "subs": "350K+", "focus": "Community farming" },
+      { "name": "Annapurna Gujarat", "subs": "300K+", "focus": "Food security" }
+    ],
+    "Odia": [
+      { "name": "Odisha Krishi", "subs": "250K+", "focus": "State farming" },
+      { "name": "Chasi Bhai", "subs": "200K+", "focus": "Brother farmer" },
+      { "name": "Nabakrushna Chas", "subs": "180K+", "focus": "New age farming" }
+    ],
+    "Assamese": [
+      { "name": "Assam Krishi", "subs": "220K+", "focus": "Tea, rice, horticulture" },
+      { "name": "Chah Bagan", "subs": "180K+", "focus": "Tea garden special" },
+      { "name": "Krishi Assam", "subs": "150K+", "focus": "Government schemes" }
+    ],
+    "English": [
+      { "name": "Millennial Farmer", "subs": "1M+", "focus": "Daily farm life, education", "location": "USA" },
+      { "name": "Justin Rhodes", "subs": "575K+", "focus": "Family livestock, permaculture", "location": "USA" },
+      { "name": "How Farms Work", "subs": "250K+", "focus": "Farm operations, techniques", "location": "Wisconsin, USA" },
+      { "name": "Peterson Farm Bros", "subs": "1M+", "focus": "Family farm, parodies", "location": "Kansas, USA" },
+      { "name": "AgriFarming", "subs": "200K+", "focus": "Commercial agriculture India", "location": "India" },
+      { "name": "Indian Agri Network", "subs": "180K+", "focus": "Pan-India farming", "location": "India" }
+    ],
+    "Other": [
+      { "name": "La Huerta de Ivan", "subs": "2M+", "focus": "Urban gardening", "lang": "Spanish" },
+      { "name": "Huerto Organico", "subs": "1.5M+", "focus": "Organic vegetable", "lang": "Spanish" },
+      { "name": "Agricultura em Foco", "subs": "800K+", "focus": "Brazilian agriculture", "lang": "Portuguese" },
+      { "name": "Permaculture Facile", "subs": "600K+", "focus": "French permaculture", "lang": "French" }
+    ]
+  },
+  "machinery": {
+  "tractors": {
+    "title": "Tractors & Power Units",
+    "headers": ["Machine", "Brand/Manufacturer", "Price Range (₹)", "Power Range", "Best For", "Dealer Locator"],
+    "data": [
+      { "machine": "Mahindra Tractors", "brand": "Mahindra & Mahindra", "price": "2.50L - 12.50L", "power": "15–75 HP", "bestFor": "All-round farming, durability", "dealerLocator": "https://www.mahindratractor.com/get-in-touch/dealer-locator" },
+      { "machine": "Swaraj Tractors", "brand": "Mahindra Group", "price": "2.50L - 8.50L", "power": "11–75 HP", "bestFor": "Small farms, orchards", "dealerLocator": "750+ dealers across India" },
+      { "machine": "John Deere Tractors", "brand": "John Deere India", "price": "4.70L - 29.20L", "power": "28–120 HP", "bestFor": "Large farms, precision farming", "dealerLocator": "https://www.mahindratractor.com/get-in-touch/dealer-locator" },
+      { "machine": "Sonalika Tractors", "brand": "International Tractors Ltd", "price": "3.00L - 15.00L", "power": "20–120 HP", "bestFor": "Heavy-duty applications", "dealerLocator": "https://www.sonalika.com/authorised-dealers.html" },
+      { "machine": "Captain Tractors", "brand": "Captain Tractors", "price": "2.00L - 5.00L", "power": "15–28 HP", "bestFor": "Mini tractors, orchards", "dealerLocator": "Regional dealers (India)" }
+    ]
+  },
+
+  "tillage": {
+    "title": "Tillage & Land Preparation",
+    "headers": ["Tool/Machine", "Type", "Price Range (₹)", "Use", "Top Manufacturers"],
+    "data": [
+      { "tool": "Cultivator", "type": "Secondary Tillage", "price": "15,000 - 45,000", "use": "Weeding, soil aeration", "manufacturers": "Fieldking, Lemken" },
+      { "tool": "Rotavator", "type": "Primary/Secondary", "price": "35,000 - 1,20,000", "use": "Seedbed preparation", "manufacturers": "Shaktiman, Dasmesh" },
+      { "tool": "Laser Land Leveler", "type": "Precision", "price": "1,50,000 - 4,00,000", "use": "Water saving, leveling", "manufacturers": "Fieldking, Leica" }
+    ]
+  },
+
+  "sowing": {
+    "title": "Sowing & Planting",
+    "headers": ["Machine", "Crop Type", "Price Range (₹)", "Manufacturers", "Features"],
+    "data": [
+      { "machine": "Seed Drill", "cropType": "Cereals, Pulses", "price": "25,000 - 80,000", "manufacturers": "Fieldking, Dasmesh", "features": "Adjustable depth, fertilizer placement" },
+      { "machine": "Rice Transplanter", "cropType": "Paddy", "price": "1,50,000 - 4,00,000", "manufacturers": "Kubota, Yanmar", "features": "4–8 row, mechanical" }
+    ]
+  },
+
+  "harvesting": {
+    "title": "Harvesting Machines",
+    "headers": ["Machine", "Crop", "Price Range (₹)", "Top Brands", "Capacity"],
+    "data": [
+      { "machine": "Combine Harvester", "crop": "Wheat, Rice", "price": "15L - 35L", "brands": "Preet, John Deere", "capacity": "2–5 acres/hour" },
+      { "machine": "Self-Propelled Reaper", "crop": "Wheat, Rice", "price": "1,50,000 - 3,50,000", "brands": "Dasmesh", "capacity": "1–2 acres/hour" }
+    ]
+  },
+
+  "sprayers": {
+    "title": "Plant Protection (Sprayers)",
+    "headers": ["Type", "Power Source", "Price Range (₹)", "Best Brands", "Coverage"],
+    "data": [
+      { "type": "Knapsack Sprayer", "power": "Manual", "price": "1,500 - 5,000", "brands": "Aspee, Kisankraft", "coverage": "0.5–1 acre/day" },
+      { "type": "Drone Sprayer", "power": "Battery", "price": "2,50,000 - 8,00,000", "brands": "DJI Agri, Garuda", "coverage": "10–15 acres/day" }
+    ]
+  },
+
+  "irrigation": {
+    "title": "Irrigation Equipment",
+    "headers": ["Equipment", "Type", "Price Range (₹)", "Top Manufacturers", "Application"],
+    "data": [
+      { "equipment": "Centrifugal Pump", "type": "Electric/Diesel", "price": "5,000 - 25,000", "manufacturers": "Kirloskar, CRI", "application": "Canals, wells" },
+      { "equipment": "Drip Irrigation", "type": "Micro-irrigation", "price": "25,000 - 1,50,000/acre", "manufacturers": "Jain, Netafim", "application": "Horticulture" }
+    ]
+  },
+
+  "processing": {
+    "title": "Post-Harvest & Processing",
+    "headers": ["Equipment", "Purpose", "Price Range (₹)", "Manufacturers", "Capacity"],
+    "data": [
+      { "equipment": "Mini Rice Mill", "purpose": "Rice milling", "price": "25,000 - 80,000", "manufacturers": "Agrovan, Buhler", "capacity": "150–500 kg/hour" },
+      { "equipment": "Oil Expeller", "purpose": "Oil extraction", "price": "40,000 - 1,50,000", "manufacturers": "Rajkumar", "capacity": "50–200 kg/hour" }
+    ]
+  },
+
+  "online_platforms": {
+    "title": "Online Platforms to Buy Agricultural Equipment",
+    "headers": ["Platform", "URL", "Features", "Payment Options"],
+    "data": [
+      { "platform": "Tractor Junction", "url": "https://tractorguru.in", "features": "Dealer locator, EMI calculator", "payment": "Cash, Finance" },
+      { "platform": "BigHaat", "url": "https://bighaat.com", "features": "Tools, sprayers, inputs", "payment": "COD, Online" }
+    ]
+  }
+  }
+}

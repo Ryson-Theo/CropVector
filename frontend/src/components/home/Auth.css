@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Roboto:wght@400;500&display=swap');
+
+:root {
+  --m3-sys-light-primary: #006d3a;
+  --m3-sys-light-surface: #f7f9f7;
+  --m3-sys-light-surface-container: #edf2ed;
+  --m3-sys-light-outline-variant: #c1c9be;
+  --m3-sys-light-secondary-container: #d2e8d0;
+  --m3-sys-light-on-secondary-container: #00210f;
+  
+  --m3-elevation-1: 0px 1px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+  --transition-standard: all 280ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* FIX: Ensure the base app doesn't double-scroll */
+html, body {
+  min-height: 100%;
+  width: 100%;
+  /* allow normal document scrolling */
+  overflow-y: auto;
+  background-color: var(--m3-sys-light-surface);
+  font-family: 'Roboto', sans-serif;
+  color: #1a1c1a;
+  -webkit-font-smoothing: antialiased;
+}
+
+.auth-container {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* ===== Left Sidebar: Fixed Branding ===== */
+.auth-sidebar {
+  flex: 0.9;
+  background-color: #191c19;
+  background-image: 
+    radial-gradient(at 0% 0%, rgba(45, 106, 79, 0.2) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, rgba(0, 109, 58, 0.1) 0px, transparent 50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5% 8%;
+  flex-shrink: 0; 
+}
+
+.brand-badge {
+  font-family: 'Google Sans', sans-serif;
+  color: #bdf3b9;
+  font-weight: 700;
+  font-size: 1.25rem;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-bottom: 2.5rem;
+  border-left: 3px solid var(--m3-sys-light-primary);
+  padding-left: 15px;
+}
+
+.sidebar-content h1 {
+  font-family: 'Google Sans', sans-serif;
+  font-size: 3.2rem;
+  font-weight: 500;
+  color: #e2e3de;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+}
+
+.sidebar-content p {
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+  color: #a3b1a3;
+  line-height: 1.6;
+}
+
+/* ===== Right Section: Scrollable Form Area ===== */
+.auth-form-section {
+  flex: 1.5;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  /* FIX: Align to top so header is never hidden */
+  justify-content: flex-start; 
+  
+  /* FIX: Enable internal scrolling */
+  overflow-y: auto; 
+  
+  /* Sufficient top padding so header isn't touching the browser edge */
+  padding: 80px 40px; 
+}
+
+/* Material Scrollbar */
+.auth-form-section::-webkit-scrollbar {
+  width: 6px;
+}
+.auth-form-section::-webkit-scrollbar-thumb {
+  background: var(--m3-sys-light-outline-variant);
+  border-radius: 10px;
+}
+
+.form-wrapper {
+  width: 100%;
+  max-width: 740px;
+  /* Removed margin: auto to prevent vertical centering clipping */
+}
+
+.header-group {
+  margin-bottom: 3rem;
+  flex-shrink: 0; /* Ensures header doesn't compress */
+}
+
+.form-title {
+  font-family: 'Google Sans', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: #191c19;
+  margin-bottom: 0.5rem;
+}
+
+.form-subtitle {
+  font-size: 1rem;
+  color: #444744;
+}
+
+/* ===== Role Cards ===== */
+.role-selection-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.role-option-card {
+  background-color: var(--m3-sys-light-surface-container);
+  border-radius: 28px;
+  padding: 32px;
+  cursor: pointer;
+  transition: var(--transition-standard);
+  border: 1px solid transparent;
+  display: flex;
+  flex-direction: column;
+  min-height: 240px;
+}
+
+.role-option-card:hover {
+  background-color: var(--m3-sys-light-secondary-container);
+  box-shadow: var(--m3-elevation-1);
+  transform: translateY(-4px);
+}
+
+.role-icon-wrapper {
+  width: 80px;
+  height: 80px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+  border: 1px solid var(--m3-sys-light-outline-variant);
+  flex-shrink: 0;
+}
+
+.role-icon-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.role-header h3 {
+  font-family: 'Google Sans', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--m3-sys-light-on-secondary-container);
+  margin-bottom: 8px;
+}
+
+.role-text p {
+  font-size: 0.95rem;
+  color: #414941;
+  line-height: 1.5;
+}
+
+/* ===== Navigation Dots ===== */
+.steps-container {
+  margin-top: 4rem;
+  display: flex;
+  gap: 12px;
+  justify-content: flex-start;
+}
+
+.step-card {
+  height: 6px;
+  width: 56px;
+  background-color: var(--m3-sys-light-surface-container);
+  border-radius: 100px;
+}
+
+.step-card.active {
+  background-color: var(--m3-sys-light-primary);
+  width: 80px;
+}
+
+/* ===== Footer Fix ===== */
+.auth-footer-links {
+  margin-top: 4rem;
+  text-align: center;
+  padding-bottom: 40px; /* Space so it's not at the very edge when scrolling */
+}
+
+.auth-footer {
+  font-size: 0.95rem;
+  color: #444744;
+}
+
+.login-link {
+  color: var(--m3-sys-light-primary);
+  text-decoration: none;
+  font-weight: 700;
+  margin-left: 5px;
+}
+
+/* Mobile Adjustments */
+@media (max-width: 1024px) {
+  html, body {
+    overflow: auto;
+  }
+  .auth-container {
+    flex-direction: column;
+    height: auto;
+  }
+  .auth-sidebar {
+    display: block;
+    padding: 60px 24px;
+  }
+  .sidebar-content h1 {
+    font-size: 2.5rem;
+  }
+  .auth-form-section {
+    overflow-y: visible;
+    padding: 60px 24px;
+  }
+  .role-selection-grid {
+    grid-template-columns: 1fr;
+  }
+}

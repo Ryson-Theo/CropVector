@@ -1,0 +1,86 @@
+# Node and package management
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables and secrets
+.env
+.env.bak
+.env.local
+.env.*.local
+.env.*
+!.env.example
+
+# Build outputs
+/build
+/dist
+.next
+out/
+
+# IDE and editor artifacts
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Test and coverage artifacts
+/coverage
+.nyc_output/
+
+# Project-specific ignore rules
+/backend/uploads/**/*.png
+/backend/uploads/**/*.jpg
+/backend/uploads/**/*.jpeg
+/backend/uploads/**/*.gif
+/backend/uploads/**/*.svg
+/backend/uploads/**/*.webp
+/backend/uploads/**/*.ico
+/backend/uploads/**/*.bmp
+/backend/uploads/**/*.tif
+/backend/uploads/**/*.tiff
+/backend/uploads/**/*.avif
+/backend/uploads/**/*.heic
+!/backend/uploads/.gitkeep
+/frontend/build/
+
+# Temporary files
+.cache/
+*.log
+*.tmp
+tmp/
+
+# OS-specific files
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Documentation artifacts
+API_VERIFICATION_REPORT.txt
+REAL_vs_FAKE_ANALYSIS.txt
+TEST_REPORT_RECOMMENDATIONS.txt
+assets/*.mp4
+
+# Don't push images, uploads, or local environment secrets
+assets/
+/backend/uploads/
+uploads/
+
+# Local env and secret files
+backend/.env
+frontend/.env
+backend/.env.local
+frontend/.env.local
+    backend/.env.bak
+*.pem
+*.key
+*.crt
+*.p12
+.firebase
+.env.local
+.env.*.local

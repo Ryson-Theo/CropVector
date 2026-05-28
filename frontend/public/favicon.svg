@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="leafGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#67C23A" />
+      <stop offset="100%" stop-color="#2E7D32" />
+    </linearGradient>
+    <linearGradient id="stemGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8BC34A" />
+      <stop offset="100%" stop-color="#2E7D32" />
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="16" ry="16" fill="#134A12" />
+  <path d="M32 12c-8 0-14 8-14 16 0 8 8 20 14 20s14-12 14-20c0-8-6-16-14-16z" fill="url(#leafGradient)" />
+  <path d="M32 12c5 6 8 11 8 16 0 7-5 15-8 15s-8-8-8-15c0-5 3-10 8-16z" fill="#C8E6C9" opacity="0.2" />
+  <path d="M32 28c-5 0-9 4-9 9 0 4 4 11 9 11s9-7 9-11c0-5-4-9-9-9z" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.85" />
+  <path d="M32 22v22" stroke="url(#stemGradient)" stroke-width="5" stroke-linecap="round" />
+  <path d="M28 19c-4 4-5 8-5 11" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.8" />
+  <path d="M36 19c4 4 5 8 5 11" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.8" />
+  <path d="M26 30c-2 4-2 8-2 12" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.7" />
+  <path d="M38 30c2 4 2 8 2 12" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.7" />
+</svg>

@@ -1,0 +1,303 @@
+.post-detail-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.back-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: white;
+  border: 1px solid #e2e8f0;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: all 0.2s;
+  font-weight: 600;
+}
+
+.back-btn:hover {
+  background: #f8fafc;
+}
+
+.post-detail-card {
+  background: white;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.post-header {
+  padding: 20px;
+  border-bottom: 1px solid #f1f5f9;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.post-author {
+  display: flex;
+  gap: 12px;
+}
+
+.author-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.author-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.author-name {
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.role-badge {
+  font-size: 0.7rem;
+  padding: 2px 6px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.role-badge.farmer {
+  background: #ecfdf5;
+  color: #065f46;
+}
+
+.role-badge.expert {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.role-badge.buyer {
+  background: #dbeafe;
+  color: #1e40af;
+}
+
+.post-time {
+  display: block;
+  font-size: 0.85rem;
+  color: #64748b;
+}
+
+.moderation-badge {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 20px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.moderation-badge.verified {
+  background: #ecfdf5;
+  color: #065f46;
+}
+
+.moderation-badge.flagged {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.post-content {
+  padding: 20px;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.post-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0 0 12px 0;
+}
+
+.post-text {
+  color: #475569;
+  line-height: 1.8;
+  font-size: 1rem;
+  margin: 12px 0;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.post-image {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: 16px 0;
+}
+
+.post-hashtags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.hashtag-pill {
+  padding: 6px 12px;
+  background: #f1f5f9;
+  color: #2aa84f;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.post-engagement {
+  display: flex;
+  gap: 20px;
+  padding: 16px 20px;
+  border-bottom: 1px solid #f1f5f9;
+  background: #f8fafc;
+}
+
+.engagement-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: none;
+  border: none;
+  color: #64748b;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s;
+  font-size: 1rem;
+}
+
+.engagement-btn:hover {
+  color: #2aa84f;
+}
+
+.comments-section {
+  padding: 20px;
+}
+
+.comments-section h3 {
+  margin: 0 0 16px 0;
+  font-size: 1.1rem;
+  color: #0f172a;
+}
+
+.comment {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.comment:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.comment-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.comment-content {
+  flex: 1;
+}
+
+.comment-author {
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.comment-content p {
+  margin: 4px 0;
+  color: #475569;
+  line-height: 1.5;
+}
+
+.comment-time {
+  font-size: 0.8rem;
+  color: #94a3b8;
+}
+
+.add-comment-form {
+  display: flex;
+  gap: 8px;
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid #e2e8f0;
+}
+
+.comment-input {
+  flex: 1;
+  padding: 10px 14px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-family: inherit;
+}
+
+.comment-btn {
+  padding: 10px 20px;
+  background: #2aa84f;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.comment-btn:hover {
+  background: #1a7c36;
+}
+
+.post-detail-loading,
+.post-detail-error {
+  text-align: center;
+  padding: 60px 20px;
+  color: #94a3b8;
+}
+
+.post-detail-error h2 {
+  color: #0f172a;
+  margin-bottom: 16px;
+}
+
+.post-detail-error button {
+  padding: 10px 20px;
+  background: #2aa84f;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .post-detail-page {
+    padding: 10px;
+  }
+
+  .post-title {
+    font-size: 1.2rem;
+  }
+
+  .post-engagement {
+    flex-wrap: wrap;
+  }
+}
