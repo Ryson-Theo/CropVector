@@ -9,6 +9,8 @@
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=black)
 ![Socket.io](https://img.shields.io/badge/Socket.io-4.8-010101)
 
+[![Release](https://img.shields.io/github/v/release/Ryson-Theo/CropVector?include_prereleases&label=Release)](https://github.com/Ryson-Theo/CropVector/releases/tag/v1.0.0-alpha)
+
 CropVector is a personal full-stack agricultural platform created by Ribin K Roy. It helps farmers, buyers, experts, and administrators manage crops, marketplaces, consultations, weather alerts, and farm operations with a unified dashboard experience.
 
 ---
