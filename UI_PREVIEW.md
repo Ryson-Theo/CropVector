@@ -196,15 +196,34 @@ Tech / APIs:
 
 A specialist view for experts to manage consultations, suggestions, and field advice.
 
-<div style="display:flex; flex-wrap:wrap; gap:12px; justify-content:center;">
-  <div style="max-width:320px; text-align:center; margin:0 8px;">
-    <img src="assets/expert-requests.gif" alt="Expert requests preview" width="320" />
-    <p><strong>Request queue</strong></p>
-  </div>
-  <div style="max-width:320px; text-align:center; margin:0 8px;">
-    <img src="assets/expert-response.gif" alt="Expert Content Validation preview" width="320" />
-    <p><strong>Content Validation workflow</strong></p>
-  </div>
+<div align="center">
+
+<table style="border: none; border-collapse: separate; border-spacing: 60px 0;">
+<tr style="border: none; vertical-align: top;">
+
+<td align="center" style="border: none;">
+
+<img src="assets/expert-requests.gif" alt="Expert requests preview" width="430" />
+
+<br/>
+
+<strong>Request queue</strong>
+
+</td>
+
+<td align="center" style="border: none;">
+
+<img src="assets/expert-response.gif" alt="Expert Content Validation preview" width="430" />
+
+<br/>
+
+<strong>Content Validation workflow</strong>
+
+</td>
+
+</tr>
+</table>
+
 </div>
 
 Features:
