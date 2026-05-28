@@ -144,15 +144,34 @@ Tech / APIs:
 
 A central space for community users to discover updates, ask questions, and connect.
 
-<div style="display:flex; flex-wrap:wrap; gap:12px; justify-content:center;">
-  <div style="max-width:320px; text-align:center; margin:0 8px;">
-    <img src="assets/community-feed.gif" alt="Community feed preview" width="320" />
-    <p><strong>Community feed</strong></p>
-  </div>
-  <div style="max-width:320px; text-align:center; margin:0 8px;">
-    <img src="assets/community-homegarden.gif" alt="Community homegarden preview" width="320" />
-    <p><strong>Home Garden</strong></p>
-  </div>
+<div align="center">
+
+<table style="border: none; border-collapse: separate; border-spacing: 60px 0;">
+<tr style="border: none; vertical-align: top;">
+
+<td align="center" style="border: none;">
+
+<img src="assets/community-feed.gif" alt="Community feed preview" width="320" />
+
+<br/>
+
+<strong>Community feed</strong>
+
+</td>
+
+<td align="center" style="border: none;">
+
+<img src="assets/community-homegarden.gif" alt="Community homegarden preview" width="320" />
+
+<br/>
+
+<strong>Home Garden</strong>
+
+</td>
+
+</tr>
+</table>
+
 </div>
 
 Features:
