@@ -94,7 +94,10 @@ An easy marketplace view for buyers to browse listings and manage orders.
 
 <div align="center">
 
-<div style="margin-bottom:40px;">
+<table style="border: none; border-collapse: separate; border-spacing: 60px 0;">
+<tr style="border: none; vertical-align: top;">
+
+<td align="center" style="border: none;">
 
 <img src="assets/marketplace-listings.gif" alt="Listings preview" width="400" />
 
@@ -102,9 +105,9 @@ An easy marketplace view for buyers to browse listings and manage orders.
 
 <strong>Browse listings</strong>
 
-</div>
+</td>
 
-<div style="margin-top:20px;">
+<td align="center" style="border: none;">
 
 <img src="assets/marketplace-order.gif" alt="Order workflow preview" width="400" />
 
@@ -112,7 +115,10 @@ An easy marketplace view for buyers to browse listings and manage orders.
 
 <strong>Order workflow</strong>
 
-</div>
+</td>
+
+</tr>
+</table>
 
 </div>
 
