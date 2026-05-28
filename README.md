@@ -28,7 +28,7 @@ CropVector is a personal full-stack agricultural platform created by Ribin K Roy
 - **Role-based Dashboards** - Separate views for Farmer, Buyer, Expert, and Admin.
 
 
-**[View Project UI Walkthrough ↗](./UI_PREVIEW.md)**
+**[View Project UI Walkthrough ↗ ](./UI_PREVIEW.md)**
 ---
 
 ## Tech Stack
