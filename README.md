@@ -16,7 +16,7 @@ CropVector is a personal full-stack agricultural platform created by Ribin K Roy
 ## Features
 
 - **Crop Management** - Track crop lifecycle, disease records, and location-based field data.
-- **Crop Recommendations** - AI-assisted, data-driven recommendations for crop selection, planting dates, and inputs based on soil, weather, and market signals.
+- **Rule-Based Crop Recommendations** - Deterministic logic for crop selection, planting dates, and inputs based on soil, weather, and market signals.
 - **Weather Alerts** - Real-time weather monitoring and configurable alerts (frost, heavy rain, heatwaves, wind) using OpenMeteo.
 - **Soil Analysis & Remote Sensing** - Soil health insights and satellite-derived indices (NDVI, moisture) via Kaegro for better field planning.
 - **Marketplace & Daily Prices** - Create listings, browse products, place orders, and view daily market (mandi) prices to inform selling decisions.
