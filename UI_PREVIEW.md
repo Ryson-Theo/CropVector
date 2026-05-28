@@ -29,27 +29,33 @@ CropVector solves the problem of scattered farm tools by centralizing weather, s
 
 A farmer-first control center for fields, crops, and risk alerts.
 
-<p align="center">
-  <img src="assets/farmer-fields.gif" width="430" />
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="assets/farmer-disease.gif" width="430" />
-</p>
+<div align="center">
 
-<p align="center">
-  <strong>Field tracking</strong>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <strong>Disease & alerts</strong>
-</p>
+<img src="assets/farmer-fields.gif" width="430" />
 
-<br/>
+<strong>Field tracking</strong>
 
-<p align="center">
-  <img src="assets/farmer-market.gif" width="420" />
-</p>
+</div>
 
-<p align="center">
-  <strong>Market insights</strong>
-</p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<div align="center">
+
+<img src="assets/farmer-disease.gif" width="430" />
+
+<strong>Disease & alerts</strong>
+
+</div>
+
+<br/><br/>
+
+<div align="center">
+
+<img src="assets/farmer-market.gif" width="420" />
+
+<strong>Market insights</strong>
+
+</div>
 Features:
 - Crop lifecycle and field tracking
 - Disease logging and treatment history
