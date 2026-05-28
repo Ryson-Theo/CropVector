@@ -248,15 +248,34 @@ Tech / APIs:
 
 A broad admin panel for platform management and oversight.
 
-<div style="display:flex; flex-wrap:wrap; gap:12px; justify-content:center;">
-  <div style="max-width:320px; text-align:center; margin:0 8px;">
-    <img src="assets/admin-users.gif" alt="Admin user management preview" width="320" />
-    <p><strong>User management</strong></p>
-  </div>
-  <div style="max-width:320px; text-align:center; margin:0 8px;">
-    <img src="assets/admin-reports.gif" alt="Admin reports preview" width="320" />
-    <p><strong>Reports & logs</strong></p>
-  </div>
+<div align="center">
+
+<table style="border: none; border-collapse: separate; border-spacing: 60px 0;">
+<tr style="border: none; vertical-align: top;">
+
+<td align="center" style="border: none;">
+
+<img src="assets/admin-users.gif" alt="Admin user management preview" width="430" />
+
+<br/>
+
+<strong>User management</strong>
+
+</td>
+
+<td align="center" style="border: none;">
+
+<img src="assets/admin-reports.gif" alt="Admin reports preview" width="430" />
+
+<br/>
+
+<strong>Reports & logs</strong>
+
+</td>
+
+</tr>
+</table>
+
 </div>
 
 Features:
