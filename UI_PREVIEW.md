@@ -29,20 +29,24 @@ CropVector solves the problem of scattered farm tools by centralizing weather, s
 
 A farmer-first control center for fields, crops, and risk alerts.
 
-<div style="display:flex; flex-wrap:wrap; gap:12px; justify-content:center;">
-  <div style="max-width:320px; text-align:center; margin:0 8px;">
-    <img src="assets/farmer-fields.gif" alt="Field overview preview" width="320" />
-    <p><strong>Field tracking</strong></p>
-  </div>
-  <div style="max-width:320px; text-align:center; margin:0 8px;">
-    <img src="assets/farmer-disease.gif" alt="Disease logging preview" width="320" />
-    <p><strong>Disease & alerts</strong></p>
-  </div>
-  <div style="max-width:320px; text-align:center; margin:0 8px;">
-    <img src="assets/farmer-market.gif" alt="Market insights preview" width="320" />
-    <p><strong>Market insights</strong></p>
-  </div>
-</div>
+<table>
+<tr>
+<td align="center">
+<img src="assets/farmer-fields.gif" width="320"/><br/>
+<strong>Field tracking</strong>
+</td>
+
+<td align="center">
+<img src="assets/farmer-disease.gif" width="320"/><br/>
+<strong>Disease & alerts</strong>
+</td>
+
+<td align="center">
+<img src="assets/farmer-market.gif" width="320"/><br/>
+<strong>Market insights</strong>
+</td>
+</tr>
+</table>
 
 Features:
 - Crop lifecycle and field tracking
