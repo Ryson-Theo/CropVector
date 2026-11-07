@@ -1,160 +1,496 @@
-﻿# CropVector — Agriculture Tech Platform
+# CropVector
 
-[![Maintained by Ryson-Theo](https://img.shields.io/badge/Maintained%20by-Ryson--Theo-blue?logo=github&logoColor=white)](https://github.com/Ryson-Theo)
+**Smarter insights. Better decisions. More sustainable farming.**
 
-![Status](https://img.shields.io/badge/Status-Active%20Development-brightgreen)
-![Node.js](https://img.shields.io/badge/Node.js-18+-339933?logo=node.js&logoColor=white)
-![React](https://img.shields.io/badge/React-19.2-61DAFB?logo=react&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-9.2-47A248?logo=mongodb&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=black)
-![Socket.io](https://img.shields.io/badge/Socket.io-4.8-010101)
+CropVector is a full-stack agriculture technology platform created by **Ribin K Roy**. It brings farmers, buyers, agricultural experts, and administrators together through crop management, field intelligence, marketplace services, weather insights, and farm operations.
 
-[![Release](https://img.shields.io/github/v/release/Ryson-Theo/CropVector?include_prereleases&label=Release)](https://github.com/Ryson-Theo/CropVector/releases/tag/v1.0.0-alpha)
+<p align="center">
+  <strong>A unified digital workspace for modern agriculture.</strong>
+  <br />
+  Built with React, Node.js, Express, MongoDB, Firebase, and Socket.io.
+</p>
 
-CropVector is a personal full-stack agricultural platform created by Ribin K Roy. It helps farmers, buyers, experts, and administrators manage crops, marketplaces, consultations, weather alerts, and farm operations with a unified dashboard experience.
+<p align="center">
+  <a href="https://github.com/Ryson-Theo/CropVector">
+    <img src="https://img.shields.io/badge/Repository-CropVector-181717?style=flat&logo=github" alt="GitHub Repository" />
+  </a>
+  <a href="https://nodejs.org/">
+    <img src="https://img.shields.io/badge/Node.js-18%2B-339933?style=flat&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  </a>
+  <a href="https://react.dev/">
+    <img src="https://img.shields.io/badge/React-19.2-61DAFB?style=flat&logo=react&logoColor=black" alt="React" />
+  </a>
+  <a href="https://www.mongodb.com/">
+    <img src="https://img.shields.io/badge/MongoDB-9.2-47A248?style=flat&logo=mongodb&logoColor=white" alt="MongoDB" />
+  </a>
+  <a href="https://firebase.google.com/">
+    <img src="https://img.shields.io/badge/Firebase-Authentication-FFCA28?style=flat&logo=firebase&logoColor=black" alt="Firebase" />
+  </a>
+  <a href="https://socket.io/">
+    <img src="https://img.shields.io/badge/Socket.io-4.8-010101?style=flat&logo=socketdotio&logoColor=white" alt="Socket.io" />
+  </a>
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat" alt="MIT License" />
+  </a>
+  <a href="https://github.com/Ryson-Theo/CropVector/releases">
+    <img src="https://img.shields.io/github/v/release/Ryson-Theo/CropVector?include_prereleases&label=Release" alt="Release" />
+  </a>
+</p>
 
----
+<p align="center">
+  Crop management • Field intelligence • Marketplace • Expert consultation
+  <br />
+  Weather insights • Real-time communication • Farm operations
+</p>
 
-## Features
-
-- **Crop Management** - Track crop lifecycle, disease records, and location-based field data.
-- **Rule-Based Crop Recommendations** - Deterministic logic for crop selection, planting dates, and inputs based on soil, weather, and market signals.
-- **Weather Alerts** - Real-time weather monitoring and configurable alerts (frost, heavy rain, heatwaves, wind) using OpenMeteo.
-- **Soil Analysis & Remote Sensing** - Soil health insights and satellite-derived indices (NDVI, moisture) via Kaegro for better field planning.
-- **Marketplace & Daily Prices** - Create listings, browse products, place orders, and view daily market (mandi) prices to inform selling decisions.
-- **Expert Consultation** - Send and receive expert suggestions and recommendations.
-- **Real-time Messaging** - Real-time chat and presence updates via Socket.io.
-- **Pest & Disease Alerts** - Receive notifications and recommended actions for observed pest or disease risks.
-- **Inventory Tracking** - Manage equipment, stock, and farm resources.
-- **PDF Reports** - Export farm and crop reports as PDFs.
-- **Role-based Dashboards** - Separate views for Farmer, Buyer, Expert, and Admin.
-
-
-**[View Project UI Walkthrough → ](./UI_PREVIEW.md)**
----
-
-## Tech Stack
-
-- Runtime: Node.js + Express.js.
-- Language: JavaScript.
-- Frontend: React + Bootstrap.
-- Database: MongoDB.
-- Authentication: Firebase + JWT.
-- Real-time: Socket.io.
-- File Uploads: Multer.
-- Testing: Jest + Supertest.
-- Hosting: Vercel / Netlify for frontend, any Node host for backend.
-
----
-
-## Quick Start
-
-### Prerequisites
-
-- Node.js 18+
-- MongoDB local or MongoDB Atlas
-- Firebase project credentials
-- Git
-
-### Installations
-
-**Clone the repository**
-
-```bash
-git clone https://github.com/Ryson-Theo/CropVector.git
-```
-
-**Install dependencies**
-
-```bash
-cd backend && npm install
-cd ../frontend && npm install
-```
-
-**Environment setup**
-
-```bash
-cd backend
-cp .env.example .env
-cd ../frontend
-cp .env.example .env
-```
-
-> On Windows CMD use: `copy .env.example .env`
-
-Update both `.env` files with your configuration.
-
-### Development
-
-```bash
-cd backend && npm run dev
-cd ../frontend && npm start
-```
-
-Visit: `http://localhost:3000`
-
-### Production Build
-
-```bash
-cd frontend && npm run build
-cd ../backend && npm start
-```
+<p align="center">
+  <a href="#key-features">Features</a>
+  •
+  <a href="#screenshots-and-ui">Screenshots</a>
+  •
+  <a href="#architecture">Architecture</a>
+  •
+  <a href="#technology-stack">Stack</a>
+  •
+  <a href="#getting-started">Installation</a>
+  •
+  <a href="#api-documentation">API</a>
+  •
+  <a href="#external-integrations">Integrations</a>
+  •
+  <a href="#contributors-and-maintainer">Creator</a>
+</p>
 
 ---
 
-## Repository Structure
+> **Project status:** Active development. Features, integrations, screenshots, and application behavior may change as the project evolves.
 
+## Overview
+
+CropVector is a personal full-stack agriculture technology project designed to connect different participants in the agricultural ecosystem through a unified platform.
+
+The application provides separate role-based experiences for:
+
+- **Farmers** — Manage crops, fields, farm resources, weather alerts, and marketplace activity.
+- **Buyers** — Browse agricultural listings, place orders, and interact with sellers.
+- **Experts** — Provide agricultural suggestions and consultation.
+- **Administrators** — Manage users, platform activity, and administrative workflows.
+
+The platform combines farm-level information with external weather, soil, satellite, and market data to support more informed agricultural decisions.
+
+## Screenshots and UI
+
+Explore the application's interface and page-by-page walkthrough:
+
+<p align="center">
+  <a href="./UI_PREVIEW.md">
+    <img src="https://img.shields.io/badge/View-Project%20UI%20Walkthrough-2E7D32?style=for-the-badge&logo=readthedocs&logoColor=white" alt="View Project UI Walkthrough" />
+  </a>
+</p>
+
+The walkthrough is maintained separately in [`UI_PREVIEW.md`](./UI_PREVIEW.md), keeping the main README focused on the project, architecture, and setup.
+
+---
+
+## Key Features
+
+### Crop and Farm Management
+
+- Create and manage crop records.
+- Track crop lifecycle and growing stages.
+- Maintain field and location information.
+- Record crop-related disease observations.
+- Organize farm resources and inventory.
+- View field-level information through location-based workflows.
+
+### Crop Recommendations and Farm Intelligence
+
+- Rule-based crop recommendations.
+- Use soil, weather, and market signals to support crop selection.
+- Generate field-level insights from available agricultural data.
+- Provide soil-driven advisories and planning information.
+- Support better decisions around crop selection and cultivation.
+
+### Weather Monitoring and Alerts
+
+- Weather information through Open-Meteo.
+- Weather forecasts and historical weather data.
+- Location-based weather information.
+- Configurable alerts for:
+  - Heavy rain
+  - Frost
+  - Heatwaves
+  - Strong winds
+- Weather-informed crop and field advisories.
+
+### Soil Analysis and Remote Sensing
+
+- Soil health insights.
+- Satellite-derived vegetation information through Kaegro.
+- NDVI-based field analysis.
+- Soil moisture insights.
+- Field-level information to support agricultural planning.
+
+### Marketplace and Daily Market Prices
+
+- Create and browse agricultural product listings.
+- View listing details.
+- Place and manage orders.
+- Review marketplace listings.
+- Access daily mandi and market price information.
+- Use market signals to support selling and crop-planning decisions.
+
+### Expert Consultation
+
+- Submit requests for agricultural suggestions.
+- Create expert recommendations.
+- Retrieve suggestions associated with a consultation session.
+- Support communication between farmers and agricultural experts.
+
+### Real-Time Messaging
+
+- Real-time communication through Socket.io.
+- Conversation and message handling.
+- Online presence updates.
+- Role-aware communication workflows.
+
+### Pest and Disease Management
+
+- Maintain disease records.
+- Track observed crop-health issues.
+- Provide pest and disease risk notifications.
+- Support recommended preventive actions.
+
+### Farm Inventory and Resources
+
+- Track farm equipment and resources.
+- Manage inventory-related information.
+- Organize farm operational records.
+
+### Reports and Role-Based Dashboards
+
+- Generate PDF farm and crop reports.
+- Separate dashboards for farmers, buyers, experts, and administrators.
+- Role-aware access to platform functionality.
+
+---
+
+## Architecture
+
+CropVector follows a full-stack client-server architecture. The React frontend communicates with the Express backend, which manages authentication, application logic, database operations, external integrations, and real-time communication.
+
+The following diagram describes the main application layers and their relationships.
+
+```mermaid
+flowchart TD
+    Users["Platform Users"]
+
+    subgraph FRONTEND["Frontend · React"]
+        App["App.js · Application Routing"]
+
+        subgraph DASHBOARDS["Role-Based Dashboards"]
+            Farmer["Farmer Dashboard"]
+            Buyer["Buyer Dashboard"]
+            Expert["Expert Dashboard"]
+            Admin["Admin Dashboard"]
+        end
+
+        UI["Shared UI Components"]
+    end
+
+    subgraph BACKEND["Backend · Node.js + Express"]
+        Server["Express Server"]
+
+        subgraph API["API Routes"]
+            Auth["Authentication Routes"]
+            FarmerAPI["Farmer Routes"]
+            MarketAPI["Marketplace Routes"]
+            ExpertAPI["Expert Routes"]
+        end
+
+        subgraph LOGIC["Application Logic"]
+            AuthLogic["Authentication & Authorization"]
+            CropLogic["Crop & Field Management"]
+            MarketLogic["Marketplace & Orders"]
+            ExpertLogic["Expert Suggestions"]
+            WeatherLogic["Weather & Recommendation Services"]
+            ReportLogic["Report Generation"]
+        end
+
+        Socket["Socket.io · Messaging & Presence"]
+        Uploads["Multer · File Uploads"]
+    end
+
+    DB[("MongoDB")]
+
+    subgraph SERVICES["External Services"]
+        Firebase["Firebase Authentication"]
+        OpenMeteo["Open-Meteo · Weather"]
+        Kaegro["Kaegro · Soil & Satellite Data"]
+        Mandi["Mandi · Market Prices"]
+        DataGov["Data.gov · API Configuration"]
+    end
+
+    Users --> App
+    App --> DASHBOARDS
+    App --> UI
+
+    Farmer --> Server
+    Buyer --> Server
+    Expert --> Server
+    Admin --> Server
+
+    Server --> API
+    Auth --> AuthLogic
+    FarmerAPI --> CropLogic
+    MarketAPI --> MarketLogic
+    ExpertAPI --> ExpertLogic
+
+    AuthLogic --> DB
+    CropLogic --> DB
+    MarketLogic --> DB
+    ExpertLogic --> DB
+    ReportLogic --> DB
+
+    AuthLogic <--> Firebase
+    WeatherLogic <--> OpenMeteo
+    WeatherLogic <--> Kaegro
+    WeatherLogic <--> Mandi
+    WeatherLogic -. Configured integration .-> DataGov
+
+    CropLogic --> WeatherLogic
+    Server <--> Socket
+    Server --> Uploads
 ```
+
+### Application flow
+
+```text
+User
+  │
+  ▼
+React Frontend
+  │
+  ├── Farmer Dashboard
+  ├── Buyer Dashboard
+  ├── Expert Dashboard
+  └── Admin Dashboard
+  │
+  ▼
+Express REST API
+  │
+  ├── Authentication & Authorization
+  ├── Crop and Field Management
+  ├── Marketplace and Orders
+  ├── Expert Consultation
+  ├── Weather and Recommendation Services
+  └── Reports and File Handling
+  │
+  ▼
+MongoDB
+  │
+  └── Application Data
+
+Supporting Services
+  ├── Firebase       → Authentication
+  ├── Open-Meteo     → Weather Information
+  ├── Kaegro         → Soil and Satellite Insights
+  ├── Mandi API      → Market Price Information
+  └── Socket.io      → Real-Time Messaging
+```
+
+The diagram represents the documented application design and integrations. Actual availability depends on the corresponding service configuration and credentials.
+
+---
+
+## Technology Stack
+
+| Layer | Technology |
+| --- | --- |
+| Runtime | Node.js 18+ |
+| Backend | Express.js |
+| Language | JavaScript |
+| Frontend | React 19.2 |
+| UI Framework | Bootstrap |
+| Database | MongoDB |
+| Database ODM | Mongoose |
+| Authentication | Firebase Authentication + JWT |
+| Real-Time Communication | Socket.io 4.8 |
+| File Uploads | Multer |
+| Testing | Jest + Supertest |
+| Weather Data | Open-Meteo |
+| Soil and Satellite Insights | Kaegro |
+| Market Information | Mandi API |
+| Frontend Hosting | Vercel / Netlify |
+| Backend Hosting | Node.js-compatible hosting |
+
+---
+
+## Project Structure
+
+```text
 CropVector/
+│
 ├── backend/
-│   ├── config/                 # DB, mail, and app config
+│   ├── config/                 # Database, mail, and app configuration
 │   ├── controllers/            # Route handlers and business logic
 │   ├── models/                 # Mongoose schemas
-│   ├── routes/                 # Express endpoints
-│   ├── middleware/             # Auth and validation middleware
-│   ├── services/               # External service helpers
+│   ├── routes/                 # Express API endpoints
+│   ├── middleware/             # Authentication and validation
+│   ├── services/               # External service integrations
 │   ├── utils/                  # Utility helpers
 │   ├── data/                   # Static JSON data
 │   ├── uploads/                # Uploaded files and assets
 │   ├── tests/                  # Backend tests
-│   ├── server.js               # Express app entry point
+│   ├── server.js               # Express application entry point
 │   └── package.json            # Backend dependencies and scripts
 │
 ├── frontend/
 │   ├── public/                 # Static public files
-│   ├── src/                    # React source code
-│   │   ├── components/         # UI components
-│   │   ├── firebase.js         # Firebase config
+│   ├── src/
+│   │   ├── components/         # React UI components
+│   │   ├── firebase.js         # Firebase configuration
 │   │   ├── App.js              # Main app and routing
 │   │   ├── index.js            # React entry point
 │   │   └── index.css           # Global styles
 │   ├── package.json            # Frontend dependencies and scripts
-│   └── .env.example            # Frontend env template
+│   └── .env.example            # Frontend environment template
 │
-├── backend/.env.example        # Backend env template
-├── frontend/.env.example       # Frontend env template
+├── backend/.env.example        # Backend environment template
+├── frontend/.env.example       # Frontend environment template
 ├── CHANGELOG.md                # Release history and project changes
 ├── CONTRIBUTING.md             # Contribution guidelines
-├── LICENSE                    # Project license
+├── LICENSE                     # Project license
 ├── README.md                   # Project documentation
 └── SECURITY.md                 # Security policy
 ```
 
-- Serves file uploads from `/uploads`.
-- Uses Socket.io for real-time messaging.
+The backend serves uploaded files through `/uploads` and uses Socket.io for real-time messaging.
 
 ---
 
-## Example API Endpoints
+## Getting Started
 
-### Auth Routes
+### Requirements
+
+Install the following before running CropVector:
+
+- Node.js 18 or later.
+- npm, included with Node.js.
+- MongoDB local installation or MongoDB Atlas.
+- Firebase project and web application credentials.
+- Git.
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Ryson-Theo/CropVector.git
+
+cd CropVector
+```
+
+### 2. Install Dependencies
+
+Install backend dependencies:
+
+```bash
+cd backend
+npm install
+```
+
+Install frontend dependencies:
+
+```bash
+cd ../frontend
+npm install
+```
+
+### 3. Configure Environment Variables
+
+Create the backend environment file:
+
+```bash
+cd ../backend
+cp .env.example .env
+```
+
+Create the frontend environment file:
+
+```bash
+cd ../frontend
+cp .env.example .env
+```
+
+On Windows Command Prompt, use:
+
+```cmd
+copy .env.example .env
+```
+
+Update both files with your MongoDB, Firebase, mail, and external service configuration.
+
+### 4. Start the Backend
+
+```bash
+cd backend
+npm run dev
+```
+
+The backend uses port `5000` by default.
+
+### 5. Start the Frontend
+
+Open another terminal:
+
+```bash
+cd frontend
+npm start
+```
+
+Open the application at:
+
+```text
+http://localhost:3000
+```
+
+### Production Build
+
+Build the frontend:
+
+```bash
+cd frontend
+npm run build
+```
+
+Start the backend:
+
+```bash
+cd backend
+npm start
+```
+
+---
+
+## API Documentation
+
+The backend exposes REST API endpoints through Express.
+
+**Default local API base URL:**
+
+```text
+http://localhost:5000/api
+```
+
+The following tables document the example application endpoints.
+
+### Authentication Routes
 
 | Endpoint | Method | Description |
-|---|---|---|
+| --- | --- | --- |
 | `/api/auth/register` | POST | Register a new user |
-| `/api/auth/login` | POST | Login with email/password |
-| `/api/auth/login-firebase` | POST | Login via Firebase token |
-| `/api/auth/profile` | GET | Get current user profile |
+| `/api/auth/login` | POST | Login with email and password |
+| `/api/auth/login-firebase` | POST | Login using a Firebase token |
+| `/api/auth/profile` | GET | Retrieve current user profile |
 | `/api/auth/profile/update` | PATCH | Update user profile |
 | `/api/auth/forgot-password` | POST | Request password reset |
 | `/api/auth/reset-password` | POST | Reset password with OTP |
@@ -163,37 +499,37 @@ CropVector/
 ### Farmer Routes
 
 | Endpoint | Method | Description |
-|---|---|---|
-| `/api/farmer/crops` | GET | List crops |
+| --- | --- | --- |
+| `/api/farmer/crops` | GET | Retrieve crops |
 | `/api/farmer/crops` | POST | Add a crop |
 | `/api/farmer/crops/:id` | PUT | Update a crop |
 | `/api/farmer/crops/:id` | DELETE | Delete a crop |
-| `/api/farmer/diseases` | GET | List diseases |
-| `/api/farmer/diseases` | POST | Add disease record |
-| `/api/farmer/locations` | GET | List locations |
-| `/api/farmer/locations` | POST | Add a location |
+| `/api/farmer/diseases` | GET | Retrieve disease records |
+| `/api/farmer/diseases` | POST | Add a disease record |
+| `/api/farmer/locations` | GET | Retrieve field locations |
+| `/api/farmer/locations` | POST | Add a field location |
 
 ### Marketplace Routes
 
 | Endpoint | Method | Description |
-|---|---|---|
-| `/api/marketplace/listings` | GET | Browse listings |
+| --- | --- | --- |
+| `/api/marketplace/listings` | GET | Browse marketplace listings |
 | `/api/marketplace/listings` | POST | Create a listing |
-| `/api/marketplace/listings/:id` | GET | Listing details |
+| `/api/marketplace/listings/:id` | GET | Retrieve listing details |
 | `/api/marketplace/orders` | POST | Place an order |
-| `/api/marketplace/orders` | GET | Get user orders |
-| `/api/marketplace/orders/:id` | PATCH | Update order |
-| `/api/marketplace/reviews/listing/:id` | GET | Listing reviews |
-| `/api/marketplace/webhook/shipment` | POST | Shipment webhook |
+| `/api/marketplace/orders` | GET | Retrieve user orders |
+| `/api/marketplace/orders/:id` | PATCH | Update an order |
+| `/api/marketplace/reviews/listing/:id` | GET | Retrieve listing reviews |
+| `/api/marketplace/webhook/shipment` | POST | Handle shipment webhook |
 
 ### Expert Routes
 
 | Endpoint | Method | Description |
-|---|---|---|
-| `/api/expert/suggestions` | POST | Create expert suggestion |
-| `/api/expert/suggestions/:sessionId` | GET | Get session suggestions |
+| --- | --- | --- |
+| `/api/expert/suggestions` | POST | Create an expert suggestion |
+| `/api/expert/suggestions/:sessionId` | GET | Retrieve suggestions for a session |
 
-### Example Request
+### Example Login Request
 
 ```http
 POST /api/auth/login
@@ -205,7 +541,7 @@ Content-Type: application/json
 }
 ```
 
-### Example Response
+### Example Login Response
 
 ```json
 {
@@ -219,17 +555,21 @@ Content-Type: application/json
 }
 ```
 
+Protected routes use backend JWT verification. Request and response formats may vary by endpoint.
+
 ---
 
 ## Authentication
 
-Frontend authentication is handled with Firebase, while backend routes use JWT verification for protected requests.
+CropVector uses Firebase Authentication on the frontend and JWT verification for protected backend requests.
 
-Example Firebase setup:
+The Firebase web configuration is supplied through frontend environment variables.
 
-```js
-import { initializeApp } from 'firebase/app';
-import { getAuth } from 'firebase/auth';
+Example Firebase initialization:
+
+```javascript
+import { initializeApp } from "firebase/app";
+import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
   apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
@@ -244,9 +584,12 @@ const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 ```
 
+Do not commit private credentials, service-account files, or populated `.env` files to the repository.
+
 ---
 
 ## Environment Variables
+
 ### Backend `.env.example`
 
 ```env
@@ -264,7 +607,7 @@ MAIL_PASS=your_16_character_app_password
 # Frontend URL for emails
 FRONTEND_URL=http://localhost:3000
 
-# External API keys (placeholders only)
+# External API keys / configuration placeholders
 OPENMETEO_API_KEY=your_openmeteo_key_here
 KAEGRO_API_KEY=your_kaegro_key_here
 MANDI_API_KEY=your_mandi_key_here
@@ -275,18 +618,11 @@ DATA_GOV_API_KEY=your_data_gov_api_key_here
 # JWT_EXPIRE=7d
 ```
 
-### External APIs
-
-- **OpenMeteo** — Weather forecasts, historical weather, and alerts used for real-time weather intelligence and automated alerting.
-- **Kaegro** — Satellite-derived soil and vegetation analytics (NDVI, moisture, soil health) used to power soil analysis, field-level insights, and improve crop recommendations.
-- **Mandi (Market) API** — Daily mandi/market price feeds and market metadata used to surface current crop prices and trends to farmers and to factor into crop recommendation logic.
-
-These external services are combined by the backend recommendation service to produce daily crop recommendations, soil-driven advisories, weather-informed alerts, and market-aware pricing signals for farmers.
-
 ### Frontend `.env.example`
 
 ```env
 REACT_APP_API_URL=http://localhost:5000
+
 REACT_APP_FIREBASE_API_KEY=your_firebase_api_key_here
 REACT_APP_FIREBASE_AUTH_DOMAIN=your-project-name.firebaseapp.com
 REACT_APP_FIREBASE_PROJECT_ID=your-project-name
@@ -296,65 +632,154 @@ REACT_APP_FIREBASE_APP_ID=1:your_app_id:web:your_web_app_id
 REACT_APP_FIREBASE_MEASUREMENT_ID=G-your_measurement_id
 ```
 
+Use the environment variable names expected by the corresponding application code. The values above are placeholders, not working credentials.
+
+---
+
+## External Integrations
+
+CropVector is designed to combine agricultural information from external services with application data.
+
+### Open-Meteo — Weather Information
+
+Used for weather-related information, including:
+
+- Weather forecasts.
+- Historical weather information.
+- Location-based weather data.
+- Weather-informed alerts and advisories.
+
+Website: https://open-meteo.com/
+
+### Kaegro — Soil and Satellite Insights
+
+The documented integration is intended to provide satellite-derived agricultural information, including:
+
+- NDVI vegetation indices.
+- Soil moisture insights.
+- Soil health information.
+- Field-level analysis.
+
+### Mandi API — Market Information
+
+Used as a market-data integration for:
+
+- Daily mandi prices.
+- Market price information.
+- Market metadata.
+- Price signals for crop planning and selling decisions.
+
+### Data.gov
+
+A `DATA_GOV_API_KEY` configuration placeholder is included in the backend environment template. The specific endpoint and operational usage should be configured according to the selected Data.gov dataset.
+
+External integrations require valid service configuration and credentials where applicable. A variable in an environment template does not, by itself, establish that an external service is active.
+
 ---
 
 ## Testing
 
-Run backend tests with:
+Run backend tests:
 
 ```bash
 cd backend
 npm test
 ```
 
-Add tests for new endpoints, controllers, and critical workflows before merging.
+Add tests for new endpoints, controllers, and important application workflows before merging changes.
+
+The backend test setup uses Jest and Supertest.
 
 ---
 
-## Continuous Integration (CI)
+## Continuous Integration
 
-Add a GitHub Actions workflow to run backend tests and build the frontend on every push and pull request.
+A GitHub Actions workflow can be used to run backend tests and build the frontend on pushes and pull requests.
 
-Example:
+Example workflow:
 
 ```yaml
 name: CropVector CI
-on: [push, pull_request]
+
+on:
+  push:
+  pull_request:
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
-      - name: Install backend dependencies
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install backend dependencies and test
         run: |
           cd backend
           npm ci
           npm test
-      - name: Install frontend dependencies
+
+      - name: Install frontend dependencies and build
         run: |
           cd frontend
           npm ci
           npm run build
 ```
 
+This is an example workflow configuration. Add it to `.github/workflows/` to enable it in the repository.
+
 ---
 
-## Versioning & Changelog
+## Deployment
 
-Use Semantic Versioning:
+CropVector uses a separate frontend and backend deployment model.
 
-- `MAJOR.MINOR.PATCH`
-- `1.0.0` — initial release
-- `1.1.0` — new feature
-- `1.1.1` — bug fix
+| Component | Deployment |
+| --- | --- |
+| Frontend | Vercel or Netlify |
+| Backend | Node.js-compatible hosting |
+| Database | MongoDB Atlas or managed MongoDB |
+| Authentication | Firebase project configuration |
 
-Keep a `CHANGELOG.md` for release notes if the project is actively evolving.
+### Production considerations
+
+- Configure production environment variables.
+- Use MongoDB Atlas or another appropriately secured database.
+- Configure the frontend API URL to point to the deployed backend.
+- Configure the correct frontend origin for backend requests.
+- Keep JWT secrets and mail credentials private.
+- Enable HTTPS.
+- Validate file uploads and access permissions.
+- Review authentication and API authorization.
+- Configure external service credentials separately for production.
+
+Never commit `.env` files or production secrets.
+
+---
+
+## Versioning and Changelog
+
+CropVector follows Semantic Versioning:
+
+```text
+MAJOR.MINOR.PATCH
+```
+
+Examples:
+
+- `1.0.0` — Initial release.
+- `1.1.0` — New feature.
+- `1.1.1` — Bug fix.
+
+See [`CHANGELOG.md`](./CHANGELOG.md) for project release history and changes.
 
 ---
 
 ## Contributing
 
-We welcome contributions to CropVector!
+Contributions and suggestions are welcome.
+
+### Development workflow
 
 1. Fork the repository.
 2. Clone your fork.
@@ -364,68 +789,89 @@ We welcome contributions to CropVector!
 git checkout -b feat/your-feature-name
 ```
 
-4. Install dependencies in both `backend` and `frontend`.
+4. Install dependencies in the backend and frontend.
 5. Implement your changes.
-6. Run tests.
+6. Run the relevant tests.
 7. Commit with a clear message.
-8. Open a pull request with a short summary and any related issue references.
+8. Open a pull request with a summary of your changes.
 
----
+Please review [`CONTRIBUTING.md`](./CONTRIBUTING.md) before submitting changes.
 
-## Code of Conduct
+## Security
 
-- Be respectful and constructive.
-- Keep communication professional.
-- Welcome feedback and collaborate.
-- Avoid discriminatory or offensive language.
-- Credit contributors fairly.
-
----
-
-## Deployment
-
-Recommended production strategy:
-
-- Backend: deploy on a Node-compatible host.
-- Frontend: deploy on Vercel or Netlify.
-- Database: use MongoDB Atlas.
-- Keep secrets in environment variables.
-- Do not commit `.env` files.
+If you discover a security vulnerability, please follow the instructions in [`SECURITY.md`](./SECURITY.md) rather than publishing sensitive details in a public issue.
 
 ---
 
 ## License
 
-This project is licensed under the MIT License. See `LICENSE` for details.
+CropVector is distributed under the **MIT License**.
+
+See [`LICENSE`](./LICENSE) for the complete license text.
 
 ---
 
-## Author
+## Contributors and Maintainer
 
-CropVector is a personal project by the maintainer behind the GitHub account [Ryson-Theo](https://github.com/Ryson-Theo). It is not maintained by a company or organization.
+<p align="center">
+  <strong>Created and developed by</strong>
+</p>
 
-<div align="center">
-  <table>
-    <tr>
-      <td align="center" style="padding: 12px; border: 1px solid #ddd; border-radius: 16px;">
-        <a href="https://github.com/Ryson-Theo" target="_blank">
-          <img src="https://github.com/Ryson-Theo.png?size=120" alt="Ryson-Theo" width="120" height="120" style="border-radius: 50%;" />
-        </a>
-        <br />
-        <strong>Ryson-Theo</strong>
-        <br />
-        <small>Main account</small>
-      </td>
-      <td width="24"></td>
-      <td align="center" style="padding: 12px; border: 1px solid #ddd; border-radius: 16px;">
-        <a href="https://github.com/Ribin-K-Roy" target="_blank">
-          <img src="https://github.com/Ribin-K-Roy.png?size=120" alt="Ribin-K-Roy" width="120" height="120" style="border-radius: 50%;" />
-        </a>
-        <br />
-        <strong>Ribin-K-Roy</strong>
-        <br />
-        <small>Other / practice account</small>
-      </td>
-    </tr>
-  </table>
-</div>
+<table align="center">
+  <tr>
+    <td align="center" width="220">
+      <a href="https://github.com/Ryson-Theo">
+        <img src="https://github.com/Ryson-Theo.png?size=240" width="120" height="120" alt="Ribin K Roy GitHub profile" />
+      </a>
+      <br />
+      <br />
+      <strong>
+        <a href="https://github.com/Ryson-Theo">Ribin K Roy</a>
+      </strong>
+      <br />
+      <sub>Project Creator · Main Account</sub>
+      <br />
+      <br />
+      <a href="https://github.com/Ryson-Theo">
+        <img src="https://img.shields.io/badge/GitHub-Ryson--Theo-181717?style=flat&logo=github" alt="Ryson-Theo GitHub" />
+      </a>
+    </td>
+    <td width="32"></td>
+    <td align="center" width="220">
+      <a href="https://github.com/Ribin-K-Roy">
+        <img src="https://github.com/Ribin-K-Roy.png?size=240" width="120" height="120" alt="Ribin K Roy alternate GitHub profile" />
+      </a>
+      <br />
+      <br />
+      <strong>
+        <a href="https://github.com/Ribin-K-Roy">Ribin-K-Roy</a>
+      </strong>
+      <br />
+      <sub>Other / Practice Account</sub>
+      <br />
+      <br />
+      <a href="https://github.com/Ribin-K-Roy">
+        <img src="https://img.shields.io/badge/GitHub-Ribin--K--Roy-181717?style=flat&logo=github" alt="Ribin-K-Roy GitHub" />
+      </a>
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <sub>CropVector is an independent personal project created by Ribin K Roy.</sub>
+</p>
+
+---
+
+<p align="center">
+  <strong>CropVector</strong>
+  <br />
+  <sub>Connecting agriculture, technology, and better farming decisions.</sub>
+  <br />
+  <br />
+  <a href="https://github.com/Ryson-Theo/CropVector">GitHub Repository</a>
+  •
+  <a href="./UI_PREVIEW.md">UI Walkthrough</a>
+  •
+  <a href="./CHANGELOG.md">Changelog</a>
+</p>
